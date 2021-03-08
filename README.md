@@ -2,7 +2,7 @@
 
 *Price prediction for Turbine(ex works) on randomly dataset using DataIKU*
 
-authors:
+author:
   * [Bogdan Gorelkin](https://b.gorelkin.me)  <bogdan@gorelkin.me>
 
 project relaized in [DataIKU DSS](https://doc.dataiku.com/dss/latest/)
