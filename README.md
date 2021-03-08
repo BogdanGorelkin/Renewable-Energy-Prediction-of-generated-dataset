@@ -4,10 +4,6 @@
 
 authors:
   * [Bogdan Gorelkin](https://b.gorelkin.me)  <bogdan@gorelkin.me>
-  * Hassan Hijazi <hasnhijazi98@gmail.com>
-
-supervisor:
-  * [Abdallah Makhoul](https://www.femto-st.fr/en/femto-people/amakhoul) <abdallah.makhoul@univ-fcomte.fr>
 
 project relaized in [DataIKU DSS](https://doc.dataiku.com/dss/latest/)
 
