@@ -1,0 +1,124 @@
+{
+  "algorithm": "RANDOM_FOREST_REGRESSION",
+  "rf_regressor_grid": {
+    "n_estimators": {
+      "gridMode": "EXPLICIT",
+      "randomMode": "RANGE",
+      "limit": {
+        "min": 1
+      },
+      "values": [
+        100
+      ],
+      "range": {
+        "min": 80,
+        "max": 200,
+        "nbValues": 3,
+        "scaling": "LINEAR"
+      }
+    },
+    "n_jobs": 1,
+    "max_tree_depth": {
+      "gridMode": "EXPLICIT",
+      "randomMode": "RANGE",
+      "limit": {
+        "min": 1
+      },
+      "values": [
+        6,
+        14
+      ],
+      "range": {
+        "min": 5,
+        "max": 10,
+        "nbValues": 3,
+        "scaling": "LINEAR"
+      }
+    },
+    "min_samples_leaf": {
+      "gridMode": "EXPLICIT",
+      "randomMode": "RANGE",
+      "limit": {
+        "min": 1
+      },
+      "values": [
+        3
+      ],
+      "range": {
+        "min": 1,
+        "max": 20,
+        "nbValues": 3,
+        "scaling": "LINEAR"
+      }
+    },
+    "selection_mode": "auto",
+    "max_features": {
+      "gridMode": "EXPLICIT",
+      "randomMode": "RANGE",
+      "limit": {
+        "min": 1
+      },
+      "values": [
+        5
+      ],
+      "range": {
+        "min": 1,
+        "max": 20,
+        "nbValues": 3,
+        "scaling": "LINEAR"
+      }
+    },
+    "max_feature_prop": {
+      "gridMode": "EXPLICIT",
+      "randomMode": "RANGE",
+      "limit": {
+        "min": 1.0E-23,
+        "max": 1.0
+      },
+      "values": [
+        0.3
+      ],
+      "range": {
+        "min": 0.1,
+        "max": 0.7,
+        "nbValues": 3,
+        "scaling": "LINEAR"
+      }
+    },
+    "enabled": true
+  },
+  "max_ensemble_nodes_serialized": 6000,
+  "metrics": {
+    "evaluationMetric": "R2",
+    "customEvaluationMetricGIB": true,
+    "customEvaluationMetricNeedsProba": false,
+    "costMatrixWeights": {
+      "tpGain": 1.0,
+      "tnGain": 0.0,
+      "fpGain": -0.3,
+      "fnGain": 0.0
+    },
+    "liftPoint": 0.4
+  },
+  "autoOptimizeThreshold": true,
+  "forcedClassifierThreshold": 0.0,
+  "gridLength": 2,
+  "grid_search_params": {
+    "mode": "KFOLD",
+    "splitRatio": 0.8,
+    "shuffleIterations": 1,
+    "nFolds": 3,
+    "stratified": true,
+    "strategy": "GRID",
+    "bayesianOptimizer": "SCIKIT_OPTIMIZE",
+    "randomized": true,
+    "seed": 0,
+    "nIter": 0,
+    "nIterRandom": 3,
+    "timeout": 0,
+    "nJobs": 4
+  },
+  "pluginAlgoCustomGridSearch": false,
+  "computeLearningCurves": false,
+  "skipExpensiveReports": false
+}

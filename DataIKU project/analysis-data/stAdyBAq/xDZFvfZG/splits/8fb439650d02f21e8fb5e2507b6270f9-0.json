@@ -1,0 +1,70 @@
+{
+  "params": {
+    "ttPolicy": "SPLIT_SINGLE_DATASET",
+    "ssdSplitMode": "RANDOM",
+    "splitBeforePrepare": true,
+    "ssdSelection": {
+      "useMemTable": false,
+      "filter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "partitionSelectionMethod": "ALL",
+      "latestPartitionsN": 1,
+      "ordering": {
+        "enabled": false,
+        "rules": []
+      },
+      "samplingMethod": "HEAD_SEQUENTIAL",
+      "maxRecords": 100000,
+      "targetRatio": 0.02,
+      "withinFirstN": -1,
+      "maxReadUncompressedBytes": -1
+    },
+    "ssdTrainingRatio": 0.8,
+    "ssdSeed": 1337,
+    "testOnLargerValues": true,
+    "kfold": false,
+    "nFolds": 5,
+    "instanceIdRefresher": 0,
+    "subSamplingSeed": 1337
+  },
+  "generationDate": 1614208836609,
+  "policyId": "type\u003dSPLIT_SINGLE_DATASET,split\u003dRANDOM,splitBeforePrepare\u003dtrue,ds\u003dtraining_dataset,sel\u003d(method\u003dhead-s,records\u003d100000),r\u003d0.8,s\u003d1337",
+  "instanceId": "8fb439650d02f21e8fb5e2507b6270f9-0",
+  "format": "csv1",
+  "schema": {
+    "columns": [
+      {"name":"ID","type":"bigint"},
+      {"name":"Turbine EXW","type":"double"},
+      {"name":"Transport","type":"double"},
+      {"name":"Customizations","type":"double"},
+      {"name":"Hub activities","type":"double"},
+      {"name":"Hub rental","type":"double"},
+      {"name":"Installation","type":"double"},
+      {"name":"Commissioning","type":"double"},
+      {"name":"Commissioning vessel","type":"double"},
+      {"name":"Installation vessel","type":"double"},
+      {"name":"Wind speed","type":"double"},
+      {"name":"Air density","type":"double"},
+      {"name":"Water depth","type":"double"},
+      {"name":"Country","type":"string"},
+      {"name":"Inflation","type":"double"},
+      {"name":"Project launch year NTP","type":"bigint"},
+      {"name":"Installation year","type":"bigint"},
+      {"name":"Distance from shore","type":"double"},
+      {"name":"Distance from hub","type":"double"},
+      {"name":"Number of units","type":"bigint"},
+      {"name":"Site area","type":"bigint"},
+      {"name":"Weather","type":"bigint"},
+      {"name":"Losses of production","type":"bigint"},
+      {"name":"Equity share","type":"bigint"}
+    ],
+    "userModified": false
+  },
+  "trainPath": "train-8fb439650d02f21e8fb5e2507b6270f9-0.csv.gz",
+  "testPath": "test-8fb439650d02f21e8fb5e2507b6270f9-0.csv.gz",
+  "trainRows": 808,
+  "testRows": 192,
+  "fullRows": 0
+}

@@ -1,0 +1,290 @@
+{
+  "type": "Filesystem",
+  "managed": true,
+  "formatType": "csv",
+  "checklists": {
+    "checklists": []
+  },
+  "checks": [],
+  "customMeta": {
+    "kv": {}
+  },
+  "flowOptions": {
+    "virtualizable": false,
+    "rebuildBehavior": "NORMAL",
+    "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "readWriteOptions": {
+    "preserveOrder": false,
+    "writeBuckets": 1,
+    "forceSingleOutputFile": false,
+    "defaultReadOrdering": {
+      "enabled": false,
+      "rules": []
+    }
+  },
+  "formatParams": {
+    "style": "unix",
+    "charset": "utf8",
+    "separator": "\t",
+    "quoteChar": "\"",
+    "escapeChar": "\\",
+    "dateSerializationFormat": "ISO",
+    "arrayMapFormat": "json",
+    "hiveSeparators": [
+      "\u0002",
+      "\u0003",
+      "\u0004",
+      "\u0005",
+      "\u0006",
+      "\u0007",
+      "\b"
+    ],
+    "skipRowsBeforeHeader": 0,
+    "parseHeaderRow": false,
+    "skipRowsAfterHeader": 0,
+    "probableNumberOfRecords": 0,
+    "normalizeBooleans": false,
+    "normalizeDoubles": true,
+    "readAdditionalColumnsBehavior": "INSERT_IN_DATA_WARNING",
+    "readMissingColumnsBehavior": "DISCARD_SILENT",
+    "readDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "writeDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "fileReadFailureBehavior": "FAIL",
+    "compress": "gz"
+  },
+  "partitioning": {
+    "ignoreNonMatchingFile": false,
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
+  },
+  "versionTag": {
+    "versionNumber": 1,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1614210378830
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1614210376186
+  },
+  "tags": [],
+  "params": {
+    "connection": "filesystem_managed",
+    "path": "${projectKey}/evaluated",
+    "notReadyIfEmpty": false,
+    "filesSelectionRules": {
+      "mode": "ALL",
+      "excludeRules": [],
+      "includeRules": [],
+      "explicitFiles": []
+    }
+  },
+  "schema": {
+    "columns": [
+      {
+        "name": "ID",
+        "type": "bigint"
+      },
+      {
+        "name": "Turbine EXW",
+        "type": "double"
+      },
+      {
+        "name": "Transport",
+        "type": "double"
+      },
+      {
+        "name": "Customizations",
+        "type": "double"
+      },
+      {
+        "name": "Hub activities",
+        "type": "double"
+      },
+      {
+        "name": "Hub rental",
+        "type": "double"
+      },
+      {
+        "name": "Installation",
+        "type": "double"
+      },
+      {
+        "name": "Commissioning",
+        "type": "double"
+      },
+      {
+        "name": "Commissioning vessel",
+        "type": "double"
+      },
+      {
+        "name": "Installation vessel",
+        "type": "double"
+      },
+      {
+        "name": "Wind speed",
+        "type": "double"
+      },
+      {
+        "name": "Air density",
+        "type": "double"
+      },
+      {
+        "name": "Water depth",
+        "type": "double"
+      },
+      {
+        "name": "Country",
+        "type": "string"
+      },
+      {
+        "name": "Inflation",
+        "type": "double"
+      },
+      {
+        "name": "Project launch year NTP",
+        "type": "bigint"
+      },
+      {
+        "name": "Installation year",
+        "type": "bigint"
+      },
+      {
+        "name": "Distance from shore",
+        "type": "double"
+      },
+      {
+        "name": "Distance from hub",
+        "type": "double"
+      },
+      {
+        "name": "Number of units",
+        "type": "bigint"
+      },
+      {
+        "name": "Site area",
+        "type": "bigint"
+      },
+      {
+        "name": "Weather",
+        "type": "bigint"
+      },
+      {
+        "name": "Losses of production",
+        "type": "bigint"
+      },
+      {
+        "name": "Equity share",
+        "type": "bigint"
+      },
+      {
+        "name": "prediction",
+        "type": "float"
+      },
+      {
+        "name": "error",
+        "type": "double"
+      },
+      {
+        "name": "error_decile",
+        "type": "smallint"
+      },
+      {
+        "name": "abs_error_decile",
+        "type": "smallint"
+      },
+      {
+        "name": "relative_error",
+        "type": "double"
+      }
+    ],
+    "userModified": true
+  },
+  "dkuProperties": [],
+  "metrics": {
+    "probes": [
+      {
+        "type": "basic",
+        "enabled": true,
+        "computeOnBuildMode": "PARTITION",
+        "meta": {
+          "name": "Basic data",
+          "level": 0
+        },
+        "configuration": {}
+      },
+      {
+        "type": "records",
+        "enabled": true,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Record count",
+          "level": 0
+        },
+        "configuration": {}
+      }
+    ],
+    "engineConfig": {
+      "padRunsWithMetrics": false,
+      "hive": {
+        "active": true,
+        "extraConf": []
+      },
+      "basic": {},
+      "dss": {
+        "active": true,
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        }
+      },
+      "sql": {
+        "active": true
+      },
+      "impala": {
+        "active": true
+      },
+      "spark": {
+        "active": true,
+        "extraConf": []
+      },
+      "python": {}
+    },
+    "displayedState": {
+      "columns": [],
+      "metrics": [
+        "basic:COUNT_COLUMNS",
+        "basic:COUNT_FILES",
+        "basic:SIZE",
+        "records:COUNT_RECORDS"
+      ]
+    }
+  },
+  "metricsChecks": {
+    "runOnBuild": false,
+    "checks": [],
+    "displayedState": {
+      "checks": []
+    }
+  },
+  "customFields": {}
+}

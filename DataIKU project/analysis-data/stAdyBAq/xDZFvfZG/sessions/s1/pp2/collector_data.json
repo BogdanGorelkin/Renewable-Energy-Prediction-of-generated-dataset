@@ -1,0 +1,479 @@
+{
+    "per_feature": {
+        "Losses of production": {
+            "stats": {
+                "std": 3.176524787877285, 
+                "p99": 20.0, 
+                "min": 10.0, 
+                "max": 20.0, 
+                "average": 15.100247524752476, 
+                "median": 15.0
+            }, 
+            "missing_impute_with_value": 15.100247524752476
+        }, 
+        "Distance from hub": {
+            "stats": {
+                "std": 43.68095830662089, 
+                "p99": 187.74429999999995, 
+                "min": 40.5, 
+                "max": 190.0, 
+                "average": 110.44820544554455, 
+                "median": 107.78999999999999
+            }, 
+            "missing_impute_with_value": 110.44820544554455
+        }, 
+        "Hub activities": {
+            "stats": {
+                "std": 69.83046370052648, 
+                "p99": 662.3256596203581, 
+                "min": 284.03536305509544, 
+                "max": 747.7676591547685, 
+                "average": 503.66664868065556, 
+                "median": 504.3887175898969
+            }, 
+            "missing_impute_with_value": 503.66664868065556
+        }, 
+        "Turbine EXW": {
+            "stats": {}
+        }, 
+        "Commissioning vessel": {
+            "stats": {
+                "std": 138.28106133612926, 
+                "p99": 1313.2249061901368, 
+                "min": 499.38007537259244, 
+                "max": 1432.3851055525072, 
+                "average": 1000.1791478110413, 
+                "median": 998.9855552174708
+            }, 
+            "missing_impute_with_value": 1000.1791478110413
+        }, 
+        "Distance from shore": {
+            "stats": {
+                "std": 43.60954590718661, 
+                "p99": 178.46059999999997, 
+                "min": 30.03, 
+                "max": 179.53, 
+                "average": 106.12832920792076, 
+                "median": 105.545
+            }, 
+            "missing_impute_with_value": 106.12832920792076
+        }, 
+        "Water depth": {
+            "stats": {
+                "std": 17.1435346101323, 
+                "p99": 83.00319999999999, 
+                "min": 24.08, 
+                "max": 83.93, 
+                "average": 54.65992574257415, 
+                "median": 54.36
+            }, 
+            "missing_impute_with_value": 54.65992574257415
+        }, 
+        "Inflation": {
+            "stats": {
+                "std": 1.2844431914224954, 
+                "p99": 7.439299999999999, 
+                "min": 3.0, 
+                "max": 7.5, 
+                "average": 5.210334158415843, 
+                "median": 5.1899999999999995
+            }, 
+            "missing_impute_with_value": 5.210334158415843
+        }, 
+        "Installation": {
+            "stats": {
+                "std": 66.21777186893885, 
+                "p99": 654.8385342025723, 
+                "min": 292.62198331774687, 
+                "max": 707.3792385858252, 
+                "average": 501.0509567744046, 
+                "median": 503.0255160408416
+            }, 
+            "missing_impute_with_value": 501.0509567744046
+        }, 
+        "Wind speed": {
+            "stats": {
+                "std": 1.163017098271749, 
+                "p99": 11.9586, 
+                "min": 8.0, 
+                "max": 11.99, 
+                "average": 10.045631188118813, 
+                "median": 10.06
+            }, 
+            "missing_impute_with_value": 10.045631188118813
+        }, 
+        "Number of units": {
+            "stats": {
+                "std": 84.15075141609067, 
+                "p99": 295.0, 
+                "min": 10.0, 
+                "max": 298.0, 
+                "average": 154.12871287128712, 
+                "median": 155.5
+            }, 
+            "missing_impute_with_value": 154.12871287128712
+        }, 
+        "Country": {
+            "stats": {
+                "mostFrequentValue": "sb", 
+                "leastFrequentValue": "sy"
+            }, 
+            "category_possible_counts": [
+                12, 
+                10, 
+                9, 
+                9, 
+                8, 
+                8, 
+                8, 
+                8, 
+                8, 
+                8, 
+                8, 
+                8, 
+                8, 
+                8, 
+                7, 
+                7, 
+                7, 
+                7, 
+                7, 
+                7, 
+                7, 
+                7, 
+                7, 
+                7, 
+                7, 
+                7, 
+                7, 
+                7, 
+                6, 
+                6, 
+                6, 
+                6, 
+                6, 
+                6, 
+                6, 
+                6, 
+                6, 
+                6, 
+                6, 
+                6, 
+                6, 
+                6, 
+                6, 
+                6, 
+                6, 
+                6, 
+                6, 
+                6, 
+                5, 
+                5, 
+                5, 
+                5, 
+                5, 
+                5, 
+                5, 
+                5, 
+                5, 
+                5, 
+                5, 
+                5, 
+                5, 
+                5, 
+                5, 
+                5, 
+                5, 
+                5, 
+                5, 
+                5, 
+                5, 
+                5, 
+                5, 
+                4, 
+                4, 
+                4, 
+                4, 
+                4, 
+                4, 
+                4, 
+                4, 
+                4, 
+                4, 
+                4, 
+                4, 
+                4, 
+                4, 
+                4, 
+                4, 
+                4, 
+                4, 
+                4, 
+                4, 
+                4, 
+                4, 
+                4, 
+                4, 
+                4, 
+                4, 
+                4, 
+                4, 
+                4, 
+                4
+            ], 
+            "category_possible_values": [
+                "sb", 
+                "mn", 
+                "cl", 
+                "pe", 
+                "dm", 
+                "pw", 
+                "rw", 
+                "me", 
+                "ng", 
+                "kw", 
+                "sm", 
+                "in", 
+                "fj", 
+                "jm", 
+                "by", 
+                "fm", 
+                "to", 
+                "bz", 
+                "ga", 
+                "tt", 
+                "sd", 
+                "kh", 
+                "pt", 
+                "hr", 
+                "ae", 
+                "es", 
+                "ki", 
+                "mt", 
+                "no", 
+                "ua", 
+                "tv", 
+                "bn", 
+                "am", 
+                "gd", 
+                "mh", 
+                "ee", 
+                "sv", 
+                "cv", 
+                "mc", 
+                "dz", 
+                "kg", 
+                "kp", 
+                "kz", 
+                "sz", 
+                "co", 
+                "km", 
+                "kr", 
+                "ss", 
+                "at", 
+                "lv", 
+                "ar", 
+                "lr", 
+                "cm", 
+                "kn", 
+                "md", 
+                "ml", 
+                "sr", 
+                "hn", 
+                "si", 
+                "py", 
+                "ba", 
+                "ao", 
+                "np", 
+                "sa", 
+                "gt", 
+                "my", 
+                "tm", 
+                "ag", 
+                "mr", 
+                "br", 
+                "bg", 
+                "mm", 
+                "cy", 
+                "mv", 
+                "sk", 
+                "ec", 
+                "lc", 
+                "uy", 
+                "mz", 
+                "gm", 
+                "gn", 
+                "zm", 
+                "li", 
+                "lu", 
+                "tj", 
+                "th", 
+                "do", 
+                "so", 
+                "cf", 
+                "dk", 
+                "cg", 
+                "ye", 
+                "ht", 
+                "ca", 
+                "tr", 
+                "gw", 
+                "se", 
+                "au", 
+                "rs", 
+                "ge", 
+                "nl"
+            ]
+        }, 
+        "Installation year": {
+            "stats": {
+                "std": 2.259491603286769, 
+                "p99": 2030.0, 
+                "min": 2023.0, 
+                "max": 2030.0, 
+                "average": 2026.5705445544554, 
+                "median": 2027.0
+            }, 
+            "missing_impute_with_value": 2026.5705445544554
+        }, 
+        "Customizations": {
+            "stats": {
+                "std": 137.0680889112733, 
+                "p99": 1330.5664885971214, 
+                "min": 578.9392012574981, 
+                "max": 1433.118480306679, 
+                "average": 1004.0659020887338, 
+                "median": 1003.7272779061345
+            }, 
+            "missing_impute_with_value": 1004.0659020887338
+        }, 
+        "Equity share": {
+            "stats": {
+                "std": 20.056178193214254, 
+                "p99": 99.0, 
+                "min": 30.0, 
+                "max": 100.0, 
+                "average": 65.32054455445545, 
+                "median": 65.0
+            }, 
+            "missing_impute_with_value": 65.32054455445545
+        }, 
+        "ID": {
+            "stats": {}
+        }, 
+        "Hub rental": {
+            "stats": {
+                "std": 66.64521777694426, 
+                "p99": 652.1944497493181, 
+                "min": 269.1957656514759, 
+                "max": 710.0264512913205, 
+                "average": 503.63717896087053, 
+                "median": 503.2349619030947
+            }, 
+            "missing_impute_with_value": 503.63717896087053
+        }, 
+        "Site area": {
+            "stats": {
+                "std": 78.4686546923182, 
+                "p99": 299.0, 
+                "min": 30.0, 
+                "max": 300.0, 
+                "average": 165.87376237623764, 
+                "median": 164.5
+            }, 
+            "missing_impute_with_value": 165.87376237623764
+        }, 
+        "Weather": {
+            "stats": {
+                "std": 28.799733197378334, 
+                "p99": 100.0, 
+                "min": 1.0, 
+                "max": 100.0, 
+                "average": 51.601485148514854, 
+                "median": 52.5
+            }, 
+            "missing_impute_with_value": 51.601485148514854
+        }, 
+        "Installation vessel": {
+            "stats": {
+                "std": 92.63191647308439, 
+                "p99": 906.1906004474872, 
+                "min": 437.68169502452224, 
+                "max": 1020.953478253024, 
+                "average": 704.7698302368915, 
+                "median": 708.5258077067494
+            }, 
+            "missing_impute_with_value": 704.7698302368915
+        }, 
+        "Project launch year NTP": {
+            "stats": {
+                "std": 1.411825265287737, 
+                "p99": 2025.0, 
+                "min": 2021.0, 
+                "max": 2025.0, 
+                "average": 2022.976485148515, 
+                "median": 2023.0
+            }, 
+            "missing_impute_with_value": 2022.976485148515
+        }, 
+        "Air density": {
+            "stats": {
+                "std": 0.057359169439333405, 
+                "p99": 2.42, 
+                "min": 2.22, 
+                "max": 2.42, 
+                "average": 2.320111386138608, 
+                "median": 2.3200000000000003
+            }, 
+            "missing_impute_with_value": 2.320111386138608
+        }, 
+        "Commissioning": {
+            "stats": {
+                "std": 95.48596537076295, 
+                "p99": 925.897280162121, 
+                "min": 386.7279028108041, 
+                "max": 973.9934282414813, 
+                "average": 706.0221682020796, 
+                "median": 703.5429281768172
+            }, 
+            "missing_impute_with_value": 706.0221682020796
+        }, 
+        "Transport": {
+            "stats": {
+                "std": 131.39871020039234, 
+                "p99": 1295.205238541397, 
+                "min": 614.1340124225942, 
+                "max": 1424.230708851498, 
+                "average": 997.2815216527242, 
+                "median": 999.7750536800621
+            }, 
+            "missing_impute_with_value": 997.2815216527242
+        }
+    }, 
+    "feature_order": [
+        "Losses of production", 
+        "Distance from hub", 
+        "Hub activities", 
+        "Turbine EXW", 
+        "Commissioning vessel", 
+        "Distance from shore", 
+        "Water depth", 
+        "Inflation", 
+        "Installation", 
+        "Wind speed", 
+        "Number of units", 
+        "Country", 
+        "Installation year", 
+        "Customizations", 
+        "Equity share", 
+        "ID", 
+        "Hub rental", 
+        "Site area", 
+        "Weather", 
+        "Installation vessel", 
+        "Project launch year NTP", 
+        "Air density", 
+        "Commissioning", 
+        "Transport"
+    ]
+}

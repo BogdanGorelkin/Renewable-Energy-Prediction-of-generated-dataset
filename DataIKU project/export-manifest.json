@@ -1,0 +1,99 @@
+{
+  "exportedWithOptions": {
+    "exportUploads": true,
+    "exportManagedFS": false,
+    "exportAnalysisModels": true,
+    "exportSavedModels": true,
+    "exportManagedFolders": false,
+    "exportAllInputDatasets": true,
+    "exportAllDatasets": true,
+    "exportAllInputManagedFolders": false,
+    "exportGitRepository": false,
+    "exportInsightsData": false,
+    "useManualPluginsInfo": false,
+    "includedDatasetsData": [],
+    "includedSavedModels": [],
+    "includedManagedFolders": [],
+    "shareAllInputDatasets": false
+  },
+  "actualContent": {
+    "includedDatasets": [
+      {
+        "name": "evaluated",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 142723
+      },
+      {
+        "name": "metrics",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 132
+      },
+      {
+        "name": "new_test_dataset_to_evaluating",
+        "type": "UploadedFiles",
+        "usedTransferMethod": "UPLOAD",
+        "size": 243347
+      },
+      {
+        "name": "test_dataset",
+        "type": "UploadedFiles",
+        "usedTransferMethod": "UPLOAD",
+        "size": 202605
+      },
+      {
+        "name": "test_dataset_scored",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 106022
+      },
+      {
+        "name": "training_dataset",
+        "type": "UploadedFiles",
+        "usedTransferMethod": "UPLOAD",
+        "size": 243033
+      }
+    ],
+    "includedSavedModels": [
+      {
+        "id": "W6uLCEwS",
+        "name": "Prediction (RANDOM_FOREST_REGRESSION) on training_dataset",
+        "size": 3085282
+      }
+    ],
+    "includedManagedFolders": [],
+    "allAnalysisData": true,
+    "insightsData": false
+  },
+  "originalProjectKey": "TURBINE_EXWPREDICTIONFORINTERVIEW",
+  "manifestVersion": 3,
+  "generatedWithDSSVersion": "8.0.4",
+  "generatedWithDSSConfVersion": "8020",
+  "exportedWithPlugins": [
+    {
+      "pluginId": "local-r-dev-setup",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "builtin-macros",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "colorbrewer-palettes",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "k8s-metrics-utils",
+      "version": "1.0.0"
+    }
+  ],
+  "requiredConnections": {
+    "filesystem_managed": {
+      "name": "filesystem_managed",
+      "type": "Filesystem"
+    }
+  },
+  "usedCodeEnvRefs": [],
+  "hasPartitionedDataset": false
+}

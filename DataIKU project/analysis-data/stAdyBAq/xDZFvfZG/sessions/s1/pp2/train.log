@@ -1,0 +1,614 @@
+[2021/02/25-00:20:36.575] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.analysis.prediction]  - ******************************************
+[2021/02/25-00:20:36.575] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.analysis.prediction]  - ** Start train session s1
+[2021/02/25-00:20:36.576] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.analysis.prediction]  - ******************************************
+[2021/02/25-00:20:36.632] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.shaker.data] T-xDZFvfZG - [ct: 58] Need to compute sampleId before checking memory cache
+[2021/02/25-00:20:36.632] [FT-TrainWorkThread-6s1lxdBz-435] [DEBUG] [dip.shaker.runner] T-xDZFvfZG - [ct: 58] Script settings sampleMax=104857600 processedMax=-1
+[2021/02/25-00:20:36.634] [FT-TrainWorkThread-6s1lxdBz-435] [DEBUG] [dip.shaker.runner] T-xDZFvfZG - [ct: 60] Processing with sampleMax=104857600 processedMax=524288000
+[2021/02/25-00:20:36.635] [FT-TrainWorkThread-6s1lxdBz-435] [DEBUG] [dip.shaker.runner] T-xDZFvfZG - [ct: 61] Computed required sample id : 244fd20e722236332c4c055f3507bade-NA-b9689059e8435a4efb7ef594c85e26650--d751713988987e9331980363e24189ce
+[2021/02/25-00:20:36.636] [FT-TrainWorkThread-6s1lxdBz-435] [DEBUG] [dku.shaker.cache] T-xDZFvfZG - Shaker MemoryCache get on dataset TURBINE_EXWPREDICTIONFORINTERVIEW.training_dataset key=ds=7ed353c71fd1ecb77abc952756a495ad--scr=9d5bf42f0fdf7964efb11e07430c003c--samp=244fd20e722236332c4c055f3507bade-NA-b9689059e8435a4efb7ef594c85e26650--d751713988987e9331980363e24189ce: hit
+[2021/02/25-00:20:36.638] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.shaker.schema] T-xDZFvfZG - [ct: 64] Column ID meaning=LongMeaning fail=0
+[2021/02/25-00:20:36.640] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.shaker.schema] T-xDZFvfZG - [ct: 66] Column Turbine EXW meaning=DoubleMeaning fail=0
+[2021/02/25-00:20:36.651] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.shaker.schema] T-xDZFvfZG - [ct: 77] Column Transport meaning=DoubleMeaning fail=0
+[2021/02/25-00:20:36.652] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.shaker.schema] T-xDZFvfZG - [ct: 78] Column Customizations meaning=DoubleMeaning fail=0
+[2021/02/25-00:20:36.652] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.shaker.schema] T-xDZFvfZG - [ct: 78] Column Hub activities meaning=DoubleMeaning fail=0
+[2021/02/25-00:20:36.665] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.shaker.schema] T-xDZFvfZG - [ct: 91] Column Hub rental meaning=DoubleMeaning fail=0
+[2021/02/25-00:20:36.675] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.shaker.schema] T-xDZFvfZG - [ct: 101] Column Installation meaning=DoubleMeaning fail=0
+[2021/02/25-00:20:36.680] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.shaker.schema] T-xDZFvfZG - [ct: 106] Column Commissioning meaning=DoubleMeaning fail=0
+[2021/02/25-00:20:36.681] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.shaker.schema] T-xDZFvfZG - [ct: 107] Column Commissioning vessel meaning=DoubleMeaning fail=0
+[2021/02/25-00:20:36.693] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.shaker.schema] T-xDZFvfZG - [ct: 119] Column Installation vessel meaning=DoubleMeaning fail=0
+[2021/02/25-00:20:36.694] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.shaker.schema] T-xDZFvfZG - [ct: 120] Column Wind speed meaning=DoubleMeaning fail=0
+[2021/02/25-00:20:36.696] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.shaker.schema] T-xDZFvfZG - [ct: 122] Column Air density meaning=DoubleMeaning fail=0
+[2021/02/25-00:20:36.697] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.shaker.schema] T-xDZFvfZG - [ct: 123] Column Water depth meaning=DoubleMeaning fail=0
+[2021/02/25-00:20:36.698] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.shaker.schema] T-xDZFvfZG - [ct: 124] Column Country meaning=Text fail=0
+[2021/02/25-00:20:36.698] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.shaker.schema] T-xDZFvfZG - [ct: 124] Column Inflation meaning=DoubleMeaning fail=0
+[2021/02/25-00:20:36.699] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.shaker.schema] T-xDZFvfZG - [ct: 125] Column Project launch year NTP meaning=LongMeaning fail=0
+[2021/02/25-00:20:36.699] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.shaker.schema] T-xDZFvfZG - [ct: 125] Column Installation year meaning=LongMeaning fail=0
+[2021/02/25-00:20:36.700] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.shaker.schema] T-xDZFvfZG - [ct: 126] Column Distance from shore meaning=DoubleMeaning fail=0
+[2021/02/25-00:20:36.700] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.shaker.schema] T-xDZFvfZG - [ct: 126] Column Distance from hub meaning=DoubleMeaning fail=0
+[2021/02/25-00:20:36.701] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.shaker.schema] T-xDZFvfZG - [ct: 127] Column Number of units meaning=LongMeaning fail=0
+[2021/02/25-00:20:36.701] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.shaker.schema] T-xDZFvfZG - [ct: 127] Column Site area meaning=LongMeaning fail=0
+[2021/02/25-00:20:36.701] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.shaker.schema] T-xDZFvfZG - [ct: 127] Column Weather meaning=LongMeaning fail=0
+[2021/02/25-00:20:36.710] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.shaker.schema] T-xDZFvfZG - [ct: 136] Column Losses of production meaning=LongMeaning fail=0
+[2021/02/25-00:20:36.716] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.shaker.schema] T-xDZFvfZG - [ct: 142] Column Equity share meaning=LongMeaning fail=0
+[2021/02/25-00:20:36.829] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.datasets.file] T-xDZFvfZG - [ct: 255] Building Filesystem handler config: {"path":"/home/bogdan/Desktop/Dataiku/DATA_DIR/uploads/TURBINE_EXWPREDICTIONFORINTERVIEW/datasets/training_dataset","notReadyIfEmpty":false,"filesSelectionRules":{"mode":"ALL","excludeRules":[],"includeRules":[],"explicitFiles":[]}}
+[2021/02/25-00:20:36.837] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.datasets.ftplike] T-xDZFvfZG - Enumerating Filesystem dataset prefix=
+[2021/02/25-00:20:36.843] [FT-TrainWorkThread-6s1lxdBz-435] [DEBUG] [dku.fs.local] T-xDZFvfZG - [ct: 269] Enumerating local filesystem prefix=/
+[2021/02/25-00:20:36.844] [FT-TrainWorkThread-6s1lxdBz-435] [DEBUG] [dku.fs.local] T-xDZFvfZG - [ct: 270] Enumeration done nb_paths=1 size=243033
+[2021/02/25-00:20:36.845] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.input.push] T-xDZFvfZG - USTP: push selection.method=HEAD_SEQUENTIAL records=100000 ratio=0.02 col=null
+[2021/02/25-00:20:36.851] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.format] T-xDZFvfZG - [ct: 277] Extractor run: limit={"maxBytes":-1,"maxRecords":100000,"ordering":{"enabled":false,"rules":[]}} totalRecords=0
+[2021/02/25-00:20:36.860] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku] T-xDZFvfZG - getCompression filename=**training_dataset.csv**
+[2021/02/25-00:20:36.862] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku] T-xDZFvfZG - getCompression filename=**training_dataset.csv**
+[2021/02/25-00:20:36.868] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.format] T-xDZFvfZG - [ct: 294] Start uncompressed stream: /home/bogdan/Desktop/Dataiku/DATA_DIR/uploads/TURBINE_EXWPREDICTIONFORINTERVIEW/datasets/training_dataset/training_dataset.csv / totalRecsBefore=0
+[2021/02/25-00:20:36.868] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku] T-xDZFvfZG - getCompression filename=**training_dataset.csv**
+[2021/02/25-00:20:37.173] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.format] T-xDZFvfZG - [ct: 599] after stream totalComp=243033 totalUncomp=243033 totalRec=1000
+[2021/02/25-00:20:37.173] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.format] T-xDZFvfZG - [ct: 599] Extractor run done, totalCompressed=243033 totalRecords=1000
+[2021/02/25-00:20:37.184] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.analysis.splits] T-xDZFvfZG - [ct: 610] Checking if splits are up to date. Policy: type=SPLIT_SINGLE_DATASET,split=RANDOM,splitBeforePrepare=true,ds=training_dataset,sel=(method=head-s,records=100000),r=0.8,s=1337, instance id: 8fb439650d02f21e8fb5e2507b6270f9-0
+[2021/02/25-00:20:37.185] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.analysis.splits] T-xDZFvfZG - [ct: 611] Search for split: p=type=SPLIT_SINGLE_DATASET,split=RANDOM,splitBeforePrepare=true,ds=training_dataset,sel=(method=head-s,records=100000),r=0.8,s=1337 i=8fb439650d02f21e8fb5e2507b6270f9-0
+[2021/02/25-00:20:37.187] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.analysis.splits] T-xDZFvfZG - [ct: 613] Search for split: p=type=SPLIT_SINGLE_DATASET,split=RANDOM,splitBeforePrepare=true,ds=training_dataset,sel=(method=head-s,records=100000),r=0.8,s=1337 i=8fb439650d02f21e8fb5e2507b6270f9-0
+[2021/02/25-00:20:37.196] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.analysis.ml.python] T-xDZFvfZG - Joining processing thread ...
+[2021/02/25-00:20:37.212] [MRT-437] [INFO] [dku.analysis.ml.python]  - Running a preprocessing set: pp2 in /home/bogdan/Desktop/Dataiku/DATA_DIR/analysis-data/TURBINE_EXWPREDICTIONFORINTERVIEW/stAdyBAq/xDZFvfZG/sessions/s1/pp2
+[2021/02/25-00:20:37.217] [MRT-437] [INFO] [dku.block.link]  - Started a socket on port 37441
+[2021/02/25-00:20:37.241] [MRT-437] [INFO] [dku.ml.kernel]  - Writing output of python-single-command-kernel to /home/bogdan/Desktop/Dataiku/DATA_DIR/analysis-data/TURBINE_EXWPREDICTIONFORINTERVIEW/stAdyBAq/xDZFvfZG/sessions/s1/pp2/train.log
+[2021/02/25-00:20:37.254] [MRT-437] [INFO] [dku.code.envs.resolution]  - Executing Python activity in builtin env
+[2021/02/25-00:20:37.299] [MRT-437] [WARN] [dku.code.projectLibs]  - External libraries file not found: /home/bogdan/Desktop/Dataiku/DATA_DIR/config/projects/TURBINE_EXWPREDICTIONFORINTERVIEW/lib/external-libraries.json
+[2021/02/25-00:20:37.301] [MRT-437] [INFO] [dku.code.projectLibs]  - EXTERNAL LIBS FROM TURBINE_EXWPREDICTIONFORINTERVIEW is {"gitReferences":{},"pythonPath":["python"],"rsrcPath":["R"],"importLibrariesFromProjects":[]}
+[2021/02/25-00:20:37.306] [MRT-437] [INFO] [dku.code.projectLibs]  - chunkFolder is /home/bogdan/Desktop/Dataiku/DATA_DIR/config/projects/TURBINE_EXWPREDICTIONFORINTERVIEW/lib/R
+[2021/02/25-00:20:37.307] [MRT-437] [INFO] [dku.python.single_command.kernel]  - Starting Python process for kernel  python-single-command-kernel
+[2021/02/25-00:20:37.308] [MRT-437] [INFO] [dip.tickets]  - Creating API ticket for analysis-ml-TURBINE_EXWPREDICTIONFORINTERVIEW-UVKmi9s on behalf of admin id=analysis-ml-TURBINE_EXWPREDICTIONFORINTERVIEW-UVKmi9s_mv9LEB8Hswu1
+[2021/02/25-00:20:37.325] [MRT-437] [INFO] [dku.security.process]  - Starting process (regular)
+[2021/02/25-00:20:37.354] [MRT-437] [INFO] [dku.security.process]  - Process started with pid=26507
+[2021/02/25-00:20:37.437] [MRT-437] [INFO] [dku.processes.cgroups]  - Will use cgroups []
+[2021/02/25-00:20:37.438] [MRT-437] [INFO] [dku.processes.cgroups]  - Applying rules to used cgroups: []
+[2021/02/25-00:20:37.483] [KNL-python-single-command-kernel-monitor-444] [INFO] [dku.resourceusage]  - Reporting start of CRU:{"context":{"type":"ANALYSIS_ML_TRAIN","authIdentifier":"admin","projectKey":"TURBINE_EXWPREDICTIONFORINTERVIEW","analysisId":"stAdyBAq","mlTaskId":"xDZFvfZG","sessionId":"s1"},"type":"LOCAL_PROCESS","id":"K2T3gz1mw83wqczv","startTime":1614208837457,"localProcess":{"cpuCurrent":0.0}}
+[2021/02/25-00:20:37.506] [process-resource-monitor-26507-449] [DEBUG] [dku.resource]  - Process stats for pid 26507: {"pid":26507,"commandName":"/home/bogdan/Desktop/Dataiku/DATA_DIR/bin/python","cpuUserTimeMS":0,"cpuSystemTimeMS":0,"cpuChildrenUserTimeMS":0,"cpuChildrenSystemTimeMS":0,"cpuTotalMS":0,"cpuCurrent":0.0,"vmSizeMB":8,"vmRSSMB":3,"vmHWMMB":3,"vmRSSAnonMB":0,"vmDataMB":1,"vmSizePeakMB":8,"vmRSSPeakMB":3,"vmRSSTotalMBS":0,"majorFaults":8,"childrenMajorFaults":0}
+Installing debugging signal handler
+[2021-02-25 00:20:47,382] [26507/MainThread] [INFO] [root] Connecting to parent at port 37441
+[2021-02-25 00:20:47,384] [26507/MainThread] [INFO] [root] Connected to parent at port 37441
+[2021/02/25-00:20:47.403] [MRT-437] [INFO] [dku.link.secret_protected]  - Connected to kernel
+[2021/02/25-00:20:47.413] [MRT-437] [INFO] [dku.block.link.interaction]  - Execute link command respClazz=true respTypeToken=false respIsString=false is=false asyncInputStream=false os=false
+[2021-02-25 00:20:54,309] [26507/MainThread] [INFO] [root] Running analysis command: train_prediction_models_nosave
+[2021-02-25 00:20:54,310] [26507/MainThread] [INFO] [dataiku.doctor.commands] PPS is {u'preprocessingFitSampleSeed': 1337, u'feature_selection_params': {u'custom_params': {u'code': u'# type your code here'}, u'pca_params': {u'variance_proportion': 0.9, u'n_features': 25}, u'random_forest_params': {u'depth': 10, u'n_features': 25, u'n_trees': 30}, u'lasso_params': {u'alpha': [0.01, 0.1, 1.0, 10.0, 100.0], u'cross_validate': True}, u'method': u'NONE', u'correlation_params': {u'max_abs_correlation': 1.0, u'n_features': 25, u'min_abs_correlation': 0.0}}, u'preprocessingFitSampleRatio': 1.0, u'reduce': {u'enabled': False, u'kept_variance': 0.0}, u'skipPreprocessing': False, u'target_remapping': [], u'per_feature': {u'Losses of production': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'LongMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Distance from hub': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'DoubleMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Hub activities': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'DoubleMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Turbine EXW': {u'generate_derivative': False, u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'sendToInput': u'main', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'DoubleMeaning', u'autoModifiedByDSS': False}, u'role': u'TARGET', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Commissioning vessel': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'DoubleMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Distance from shore': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'DoubleMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Water depth': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'DoubleMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Inflation': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'DoubleMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Installation': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'DoubleMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Wind speed': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'DoubleMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Number of units': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'LongMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Country': {u'missing_impute_with': u'MODE', u'customProcessorWantsMatrix': False, u'nb_bins_hashing': 1048576, u'customHandlingCode': u'', u'category_handling': u'DUMMIFY', u'cumulative_proportion': 0.95, u'sendToInput': u'main', u'state': {u'userModified': False, u'recordedMeaning': u'Text', u'autoModifiedByDSS': False}, u'missing_handling': u'NONE', u'max_nb_categories': 100, u'dummy_clip': u'MAX_NB_CATEGORIES', u'role': u'INPUT', u'max_cat_safety': 200, u'min_samples': 10, u'type': u'CATEGORY', u'dummy_drop': u'DROP'}, u'Installation year': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'LongMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Customizations': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'DoubleMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Equity share': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'LongMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'ID': {u'generate_derivative': False, u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'sendToInput': u'main', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'LongMeaning', u'autoModifiedByDSS': False}, u'role': u'REJECT', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'autoReason': u'REJECT_IDENTIFIER', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Hub rental': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'DoubleMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Site area': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'LongMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Weather': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'LongMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Installation vessel': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'DoubleMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Project launch year NTP': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'LongMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Air density': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'DoubleMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Commissioning': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'DoubleMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Transport': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'DoubleMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}}, u'feature_generation': {u'manual_interactions': {u'interactions': []}, u'pairwise_linear': {u'behavior': u'DISABLED'}, u'categoricals_count_transformer': {u'input_features': [], u'all_features': False, u'behavior': u'DISABLED'}, u'polynomial_combinations': {u'behavior': u'DISABLED'}, u'numericals_clustering': {u'k': 0, u'input_features': [], u'all_features': False, u'behavior': u'DISABLED'}}}
+[2021-02-25 00:20:54,312] [26507/MainThread] [INFO] [dataiku.doctor.utils.listener] START -  Loading train set
+[2021-02-25 00:20:54,313] [26507/MainThread] [INFO] [root] Reading with dtypes: None
+[2021-02-25 00:20:54,313] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for ID: None (schema_type=bigint feature_type=NUMERIC feature_role=REJECT)
+[2021-02-25 00:20:54,313] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Turbine EXW: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=TARGET)
+[2021-02-25 00:20:54,313] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Transport: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,313] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Customizations: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,313] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Hub activities: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,313] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Hub rental: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,313] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Installation: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,313] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Commissioning: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,313] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Commissioning vessel: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,314] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Installation vessel: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,314] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Wind speed: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,314] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Air density: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,314] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Water depth: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,314] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Country: str (schema_type=string feature_type=CATEGORY feature_role=INPUT)
+[2021-02-25 00:20:54,314] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Inflation: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,314] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Project launch year NTP: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,314] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Installation year: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,314] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Distance from shore: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,314] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Distance from hub: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,314] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Number of units: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,314] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Site area: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,315] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Weather: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,315] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Losses of production: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,315] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Equity share: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,315] [26507/MainThread] [INFO] [root] Reading with FIXED dtypes: {u'Losses of production': <type 'numpy.float64'>, u'Distance from hub': <type 'numpy.float64'>, u'Hub activities': <type 'numpy.float64'>, u'Turbine EXW': <type 'numpy.float64'>, u'Commissioning vessel': <type 'numpy.float64'>, u'Distance from shore': <type 'numpy.float64'>, u'Water depth': <type 'numpy.float64'>, u'Inflation': <type 'numpy.float64'>, u'Installation': <type 'numpy.float64'>, u'Wind speed': <type 'numpy.float64'>, u'Number of units': <type 'numpy.float64'>, u'Country': 'str', u'Installation year': <type 'numpy.float64'>, u'Customizations': <type 'numpy.float64'>, u'Equity share': <type 'numpy.float64'>, u'Hub rental': <type 'numpy.float64'>, u'Site area': <type 'numpy.float64'>, u'Weather': <type 'numpy.float64'>, u'Installation vessel': <type 'numpy.float64'>, u'Project launch year NTP': <type 'numpy.float64'>, u'Air density': <type 'numpy.float64'>, u'Commissioning': <type 'numpy.float64'>, u'Transport': <type 'numpy.float64'>}
+[2021-02-25 00:20:54,434] [26507/MainThread] [INFO] [root] Loaded table
+[2021-02-25 00:20:54,435] [26507/MainThread] [INFO] [dataiku.doctor.utils]  Coercion done
+[2021-02-25 00:20:54,435] [26507/MainThread] [INFO] [dataiku.doctor.commands] Loaded train df: shape=(808,24)
+[2021-02-25 00:20:54,435] [26507/MainThread] [INFO] [dataiku.doctor.commands] Train col : ID (int64)
+[2021-02-25 00:20:54,436] [26507/MainThread] [INFO] [dataiku.doctor.commands] Train col : Turbine EXW (float64)
+[2021-02-25 00:20:54,436] [26507/MainThread] [INFO] [dataiku.doctor.commands] Train col : Transport (float64)
+[2021-02-25 00:20:54,436] [26507/MainThread] [INFO] [dataiku.doctor.commands] Train col : Customizations (float64)
+[2021-02-25 00:20:54,436] [26507/MainThread] [INFO] [dataiku.doctor.commands] Train col : Hub activities (float64)
+[2021-02-25 00:20:54,436] [26507/MainThread] [INFO] [dataiku.doctor.commands] Train col : Hub rental (float64)
+[2021-02-25 00:20:54,436] [26507/MainThread] [INFO] [dataiku.doctor.commands] Train col : Installation (float64)
+[2021-02-25 00:20:54,436] [26507/MainThread] [INFO] [dataiku.doctor.commands] Train col : Commissioning (float64)
+[2021-02-25 00:20:54,436] [26507/MainThread] [INFO] [dataiku.doctor.commands] Train col : Commissioning vessel (float64)
+[2021-02-25 00:20:54,436] [26507/MainThread] [INFO] [dataiku.doctor.commands] Train col : Installation vessel (float64)
+[2021-02-25 00:20:54,436] [26507/MainThread] [INFO] [dataiku.doctor.commands] Train col : Wind speed (float64)
+[2021-02-25 00:20:54,436] [26507/MainThread] [INFO] [dataiku.doctor.commands] Train col : Air density (float64)
+[2021-02-25 00:20:54,436] [26507/MainThread] [INFO] [dataiku.doctor.commands] Train col : Water depth (float64)
+[2021-02-25 00:20:54,436] [26507/MainThread] [INFO] [dataiku.doctor.commands] Train col : Country (object)
+[2021-02-25 00:20:54,437] [26507/MainThread] [INFO] [dataiku.doctor.commands] Train col : Inflation (float64)
+[2021-02-25 00:20:54,437] [26507/MainThread] [INFO] [dataiku.doctor.commands] Train col : Project launch year NTP (float64)
+[2021-02-25 00:20:54,437] [26507/MainThread] [INFO] [dataiku.doctor.commands] Train col : Installation year (float64)
+[2021-02-25 00:20:54,437] [26507/MainThread] [INFO] [dataiku.doctor.commands] Train col : Distance from shore (float64)
+[2021-02-25 00:20:54,437] [26507/MainThread] [INFO] [dataiku.doctor.commands] Train col : Distance from hub (float64)
+[2021-02-25 00:20:54,437] [26507/MainThread] [INFO] [dataiku.doctor.commands] Train col : Number of units (float64)
+[2021-02-25 00:20:54,437] [26507/MainThread] [INFO] [dataiku.doctor.commands] Train col : Site area (float64)
+[2021-02-25 00:20:54,437] [26507/MainThread] [INFO] [dataiku.doctor.commands] Train col : Weather (float64)
+[2021-02-25 00:20:54,438] [26507/MainThread] [INFO] [dataiku.doctor.commands] Train col : Losses of production (float64)
+[2021-02-25 00:20:54,438] [26507/MainThread] [INFO] [dataiku.doctor.commands] Train col : Equity share (float64)
+[2021-02-25 00:20:54,438] [26507/MainThread] [INFO] [dataiku.doctor.utils.listener] END -  Loading train set
+[2021-02-25 00:20:54,438] [26507/MainThread] [INFO] [dataiku.doctor.utils.listener] START -  Loading test set
+[2021-02-25 00:20:54,439] [26507/MainThread] [INFO] [root] Reading with dtypes: None
+[2021-02-25 00:20:54,439] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for ID: None (schema_type=bigint feature_type=NUMERIC feature_role=REJECT)
+[2021-02-25 00:20:54,439] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Turbine EXW: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=TARGET)
+[2021-02-25 00:20:54,439] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Transport: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,439] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Customizations: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,439] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Hub activities: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,440] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Hub rental: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,440] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Installation: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,440] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Commissioning: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,440] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Commissioning vessel: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,440] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Installation vessel: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,440] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Wind speed: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,440] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Air density: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,440] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Water depth: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,440] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Country: str (schema_type=string feature_type=CATEGORY feature_role=INPUT)
+[2021-02-25 00:20:54,440] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Inflation: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,440] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Project launch year NTP: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,440] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Installation year: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,440] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Distance from shore: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,440] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Distance from hub: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,441] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Number of units: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,441] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Site area: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,441] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Weather: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,441] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Losses of production: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,441] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Equity share: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:54,441] [26507/MainThread] [INFO] [root] Reading with FIXED dtypes: {u'Losses of production': <type 'numpy.float64'>, u'Distance from hub': <type 'numpy.float64'>, u'Hub activities': <type 'numpy.float64'>, u'Turbine EXW': <type 'numpy.float64'>, u'Commissioning vessel': <type 'numpy.float64'>, u'Distance from shore': <type 'numpy.float64'>, u'Water depth': <type 'numpy.float64'>, u'Inflation': <type 'numpy.float64'>, u'Installation': <type 'numpy.float64'>, u'Wind speed': <type 'numpy.float64'>, u'Number of units': <type 'numpy.float64'>, u'Country': 'str', u'Installation year': <type 'numpy.float64'>, u'Customizations': <type 'numpy.float64'>, u'Equity share': <type 'numpy.float64'>, u'Hub rental': <type 'numpy.float64'>, u'Site area': <type 'numpy.float64'>, u'Weather': <type 'numpy.float64'>, u'Installation vessel': <type 'numpy.float64'>, u'Project launch year NTP': <type 'numpy.float64'>, u'Air density': <type 'numpy.float64'>, u'Commissioning': <type 'numpy.float64'>, u'Transport': <type 'numpy.float64'>}
+[2021-02-25 00:20:54,447] [26507/MainThread] [INFO] [root] Loaded table
+[2021-02-25 00:20:54,449] [26507/MainThread] [INFO] [dataiku.doctor.utils]  Coercion done
+[2021-02-25 00:20:54,449] [26507/MainThread] [INFO] [dataiku.doctor.commands] Loaded test df: shape=(192,24)
+[2021-02-25 00:20:54,449] [26507/MainThread] [INFO] [dataiku.doctor.utils.listener] END -  Loading test set
+[2021-02-25 00:20:54,449] [26507/MainThread] [INFO] [dataiku.doctor.utils.listener] START -  Collecting statistics
+[2021-02-25 00:20:54,450] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Losses of production... (type=NUMERIC)
+[2021-02-25 00:20:54,450] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2021-02-25 00:20:54,466] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Distance from hub... (type=NUMERIC)
+[2021-02-25 00:20:54,466] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2021-02-25 00:20:54,467] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Hub activities... (type=NUMERIC)
+[2021-02-25 00:20:54,468] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2021-02-25 00:20:54,468] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Turbine EXW... (type=NUMERIC)
+[2021-02-25 00:20:54,469] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Commissioning vessel... (type=NUMERIC)
+[2021-02-25 00:20:54,469] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2021-02-25 00:20:54,470] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Distance from shore... (type=NUMERIC)
+[2021-02-25 00:20:54,470] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2021-02-25 00:20:54,475] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Water depth... (type=NUMERIC)
+[2021-02-25 00:20:54,476] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2021-02-25 00:20:54,477] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Inflation... (type=NUMERIC)
+[2021-02-25 00:20:54,477] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2021-02-25 00:20:54,479] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Installation... (type=NUMERIC)
+[2021-02-25 00:20:54,479] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2021-02-25 00:20:54,480] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Wind speed... (type=NUMERIC)
+[2021-02-25 00:20:54,481] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2021-02-25 00:20:54,482] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Number of units... (type=NUMERIC)
+[2021-02-25 00:20:54,482] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2021-02-25 00:20:54,483] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Country... (type=CATEGORY)
+[2021-02-25 00:20:54,485] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Installation year... (type=NUMERIC)
+[2021-02-25 00:20:54,486] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2021-02-25 00:20:54,486] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Customizations... (type=NUMERIC)
+[2021-02-25 00:20:54,487] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2021-02-25 00:20:54,489] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Equity share... (type=NUMERIC)
+[2021-02-25 00:20:54,490] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2021-02-25 00:20:54,491] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at ID... (type=NUMERIC)
+[2021-02-25 00:20:54,491] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Hub rental... (type=NUMERIC)
+[2021-02-25 00:20:54,491] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2021-02-25 00:20:54,492] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Site area... (type=NUMERIC)
+[2021-02-25 00:20:54,492] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2021-02-25 00:20:54,493] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Weather... (type=NUMERIC)
+[2021-02-25 00:20:54,494] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2021-02-25 00:20:54,495] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Installation vessel... (type=NUMERIC)
+[2021-02-25 00:20:54,495] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2021-02-25 00:20:54,496] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Project launch year NTP... (type=NUMERIC)
+[2021-02-25 00:20:54,496] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2021-02-25 00:20:54,497] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Air density... (type=NUMERIC)
+[2021-02-25 00:20:54,498] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2021-02-25 00:20:54,499] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Commissioning... (type=NUMERIC)
+[2021-02-25 00:20:54,499] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2021-02-25 00:20:54,500] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Transport... (type=NUMERIC)
+[2021-02-25 00:20:54,500] [26507/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2021-02-25 00:20:54,501] [26507/MainThread] [INFO] [dataiku.doctor.utils.listener] END -  Collecting statistics
+[2021-02-25 00:20:54,502] [26507/MainThread] [INFO] [dataiku.doctor.multiframe] generating interactions
+[2021-02-25 00:20:54,502] [26507/MainThread] [INFO] [dataiku.doctor.multiframe] {u'preprocessingFitSampleSeed': 1337, u'feature_selection_params': {u'custom_params': {u'code': u'# type your code here'}, u'pca_params': {u'variance_proportion': 0.9, u'n_features': 25}, u'random_forest_params': {u'depth': 10, u'n_features': 25, u'n_trees': 30}, u'lasso_params': {u'alpha': [0.01, 0.1, 1.0, 10.0, 100.0], u'cross_validate': True}, u'method': u'NONE', u'correlation_params': {u'max_abs_correlation': 1.0, u'n_features': 25, u'min_abs_correlation': 0.0}}, u'preprocessingFitSampleRatio': 1.0, u'reduce': {u'enabled': False, u'kept_variance': 0.0}, u'skipPreprocessing': False, u'target_remapping': [], u'per_feature': {u'Losses of production': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'LongMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Distance from hub': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'DoubleMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Hub activities': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'DoubleMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Turbine EXW': {u'generate_derivative': False, u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'sendToInput': u'main', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'DoubleMeaning', u'autoModifiedByDSS': False}, u'role': u'TARGET', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Commissioning vessel': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'DoubleMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Distance from shore': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'DoubleMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Water depth': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'DoubleMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Inflation': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'DoubleMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Installation': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'DoubleMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Wind speed': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'DoubleMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Number of units': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'LongMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Country': {u'missing_impute_with': u'MODE', u'customProcessorWantsMatrix': False, u'nb_bins_hashing': 1048576, u'customHandlingCode': u'', u'category_handling': u'DUMMIFY', u'cumulative_proportion': 0.95, u'sendToInput': u'main', u'state': {u'userModified': False, u'recordedMeaning': u'Text', u'autoModifiedByDSS': False}, u'missing_handling': u'NONE', u'max_nb_categories': 100, u'dummy_clip': u'MAX_NB_CATEGORIES', u'role': u'INPUT', u'max_cat_safety': 200, u'min_samples': 10, u'type': u'CATEGORY', u'dummy_drop': u'DROP'}, u'Installation year': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'LongMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Customizations': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'DoubleMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Equity share': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'LongMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'ID': {u'generate_derivative': False, u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'sendToInput': u'main', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'LongMeaning', u'autoModifiedByDSS': False}, u'role': u'REJECT', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'autoReason': u'REJECT_IDENTIFIER', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Hub rental': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'DoubleMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Site area': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'LongMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Weather': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'LongMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Installation vessel': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'DoubleMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Project launch year NTP': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'LongMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Air density': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'DoubleMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Commissioning': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'DoubleMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}, u'Transport': {u'generate_derivative': False, u'sendToInput': u'main', u'rescaling': u'AVGSTD', u'role': u'INPUT', u'customHandlingCode': u'', u'customProcessorWantsMatrix': False, u'numerical_handling': u'REGULAR', u'binarize_threshold_mode': u'MEDIAN', u'state': {u'userModified': False, u'recordedMeaning': u'DoubleMeaning', u'autoModifiedByDSS': False}, u'missing_handling': u'IMPUTE', u'binarize_constant_threshold': 0.0, u'quantile_bin_nb_bins': 4, u'missing_impute_with': u'MEAN', u'type': u'NUMERIC', u'impute_constant_value': 0.0}}, u'feature_generation': {u'manual_interactions': {u'interactions': []}, u'pairwise_linear': {u'behavior': u'DISABLED'}, u'categoricals_count_transformer': {u'input_features': [], u'all_features': False, u'behavior': u'DISABLED'}, u'polynomial_combinations': {u'behavior': u'DISABLED'}, u'numericals_clustering': {u'k': 0, u'input_features': [], u'all_features': False, u'behavior': u'DISABLED'}}}
+[2021-02-25 00:20:54,502] [26507/MainThread] [INFO] [dataiku.doctor.multiframe] No feature selection to perform
+[2021-02-25 00:20:54,502] [26507/MainThread] [INFO] [dataiku.doctor.utils.listener] START -  Preprocessing train set
+[2021-02-25 00:20:54,503] [26507/MainThread] [INFO] [dataiku.doctor.multiframe] Set MF index len 808
+[2021-02-25 00:20:54,503] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:RemapValueToOutput
+[2021-02-25 00:20:54,503] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:MultipleImputeMissingFromInput
+[2021-02-25 00:20:54,503] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] MIMIFI: Imputing with map {u'Site area': 165.87376237623764, u'Installation': 501.0509567744046, u'Losses of production': 15.100247524752476, u'Distance from hub': 110.44820544554455, u'Number of units': 154.12871287128712, u'Installation year': 2026.5705445544554, u'Distance from shore': 106.12832920792076, u'Customizations': 1004.0659020887338, u'Water depth': 54.65992574257415, u'Hub activities': 503.66664868065556, u'Weather': 51.601485148514854, u'Commissioning': 706.0221682020796, u'Inflation': 5.210334158415843, u'Commissioning vessel': 1000.1791478110413, u'Project launch year NTP': 2022.976485148515, u'Air density': 2.320111386138608, u'Equity share': 65.32054455445545, u'Hub rental': 503.63717896087053, u'Transport': 997.2815216527242, u'Installation vessel': 704.7698302368915, u'Wind speed': 10.045631188118813}
+[2021-02-25 00:20:54,508] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:RescalingProcessor2 (Losses of production)
+[2021-02-25 00:20:54,509] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Losses of production (avg=15.1002475248 std=3.17652478788 shift=15.1002475248 inv_scale=0.314809443268)
+[2021-02-25 00:20:54,597] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Losses of production (avg=-2.12563739987e-16 std=1.0) nulls=0
+[2021-02-25 00:20:54,598] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:RescalingProcessor2 (Distance from hub)
+[2021-02-25 00:20:54,598] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Distance from hub (avg=110.448205446 std=43.6809583066 shift=110.448205446 inv_scale=0.0228932706325)
+[2021-02-25 00:20:54,599] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Distance from hub (avg=2.31525469863e-16 std=1.0) nulls=0
+[2021-02-25 00:20:54,599] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:RescalingProcessor2 (Hub activities)
+[2021-02-25 00:20:54,599] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Hub activities (avg=503.666648681 std=69.8304637005 shift=503.666648681 inv_scale=0.0143203975315)
+[2021-02-25 00:20:54,600] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Hub activities (avg=-6.2079054768e-15 std=1.0) nulls=0
+[2021-02-25 00:20:54,600] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:RescalingProcessor2 (Commissioning vessel)
+[2021-02-25 00:20:54,600] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Commissioning vessel (avg=1000.17914781 std=138.281061336 shift=1000.17914781 inv_scale=0.00723164828457)
+[2021-02-25 00:20:54,601] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Commissioning vessel (avg=-6.29089739597e-15 std=1.0) nulls=0
+[2021-02-25 00:20:54,601] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:RescalingProcessor2 (Distance from shore)
+[2021-02-25 00:20:54,601] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Distance from shore (avg=106.128329208 std=43.6095459072 shift=106.128329208 inv_scale=0.0229307592913)
+[2021-02-25 00:20:54,602] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Distance from shore (avg=8.18926884501e-16 std=1.0) nulls=0
+[2021-02-25 00:20:54,602] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:RescalingProcessor2 (Water depth)
+[2021-02-25 00:20:54,602] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Water depth (avg=54.6599257426 std=17.1435346101 shift=54.6599257426 inv_scale=0.0583310281538)
+[2021-02-25 00:20:54,603] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Water depth (avg=6.08176875198e-15 std=1.0) nulls=0
+[2021-02-25 00:20:54,603] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:RescalingProcessor2 (Inflation)
+[2021-02-25 00:20:54,603] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Inflation (avg=5.21033415842 std=1.28444319142 shift=5.21033415842 inv_scale=0.778547472304)
+[2021-02-25 00:20:54,605] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Inflation (avg=-8.86529573624e-16 std=1.0) nulls=0
+[2021-02-25 00:20:54,606] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:RescalingProcessor2 (Installation)
+[2021-02-25 00:20:54,606] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Installation (avg=501.050956774 std=66.2177718689 shift=501.050956774 inv_scale=0.0151016860244)
+[2021-02-25 00:20:54,608] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Installation (avg=-2.58319218601e-17 std=1.0) nulls=0
+[2021-02-25 00:20:54,608] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:RescalingProcessor2 (Wind speed)
+[2021-02-25 00:20:54,609] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Wind speed (avg=10.0456311881 std=1.16301709827 shift=10.0456311881 inv_scale=0.859832586714)
+[2021-02-25 00:20:54,610] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Wind speed (avg=-1.04949052749e-15 std=1.0) nulls=0
+[2021-02-25 00:20:54,610] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:RescalingProcessor2 (Number of units)
+[2021-02-25 00:20:54,610] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Number of units (avg=154.128712871 std=84.1507514161 shift=154.128712871 inv_scale=0.0118834351824)
+[2021-02-25 00:20:54,611] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Number of units (avg=8.73888420373e-17 std=1.0) nulls=0
+[2021-02-25 00:20:54,611] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:RescalingProcessor2 (Installation year)
+[2021-02-25 00:20:54,611] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Installation year (avg=2026.57054455 std=2.25949160329 shift=2026.57054455 inv_scale=0.442577435803)
+[2021-02-25 00:20:54,612] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Installation year (avg=1.59306011727e-14 std=1.0) nulls=0
+[2021-02-25 00:20:54,612] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:RescalingProcessor2 (Customizations)
+[2021-02-25 00:20:54,613] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Customizations (avg=1004.06590209 std=137.068088911 shift=1004.06590209 inv_scale=0.00729564414258)
+[2021-02-25 00:20:54,614] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Customizations (avg=5.17188052561e-16 std=1.0) nulls=0
+[2021-02-25 00:20:54,614] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:RescalingProcessor2 (Equity share)
+[2021-02-25 00:20:54,614] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Equity share (avg=65.3205445545 std=20.0561781932 shift=65.3205445545 inv_scale=0.0498599479106)
+[2021-02-25 00:20:54,615] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Equity share (avg=-2.94319024597e-16 std=1.0) nulls=0
+[2021-02-25 00:20:54,615] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:RescalingProcessor2 (Hub rental)
+[2021-02-25 00:20:54,615] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Hub rental (avg=503.637178961 std=66.6452177769 shift=503.637178961 inv_scale=0.0150048275534)
+[2021-02-25 00:20:54,616] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Hub rental (avg=-4.05616134739e-15 std=1.0) nulls=0
+[2021-02-25 00:20:54,616] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:RescalingProcessor2 (Site area)
+[2021-02-25 00:20:54,616] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Site area (avg=165.873762376 std=78.4686546923 shift=165.873762376 inv_scale=0.0127439422011)
+[2021-02-25 00:20:54,617] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Site area (avg=-1.65709030656e-16 std=1.0) nulls=0
+[2021-02-25 00:20:54,617] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:RescalingProcessor2 (Weather)
+[2021-02-25 00:20:54,617] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Weather (avg=51.6014851485 std=28.7997331974 shift=51.6014851485 inv_scale=0.0347225438912)
+[2021-02-25 00:20:54,618] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Weather (avg=-7.4610284947e-17 std=1.0) nulls=0
+[2021-02-25 00:20:54,618] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:RescalingProcessor2 (Installation vessel)
+[2021-02-25 00:20:54,619] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Installation vessel (avg=704.769830237 std=92.6319164731 shift=704.769830237 inv_scale=0.0107954152097)
+[2021-02-25 00:20:54,619] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Installation vessel (avg=-8.02438423739e-16 std=1.0) nulls=0
+[2021-02-25 00:20:54,619] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:RescalingProcessor2 (Project launch year NTP)
+[2021-02-25 00:20:54,620] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Project launch year NTP (avg=2022.97648515 std=1.41182526529 shift=2022.97648515 inv_scale=0.708302949796)
+[2021-02-25 00:20:54,620] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Project launch year NTP (avg=-6.20512991924e-14 std=1.0) nulls=0
+[2021-02-25 00:20:54,620] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:RescalingProcessor2 (Air density)
+[2021-02-25 00:20:54,621] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Air density (avg=2.32011138614 std=0.0573591694393 shift=2.32011138614 inv_scale=17.4340041841)
+[2021-02-25 00:20:54,623] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Air density (avg=1.03524449739e-13 std=1.0) nulls=0
+[2021-02-25 00:20:54,623] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:RescalingProcessor2 (Commissioning)
+[2021-02-25 00:20:54,623] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Commissioning (avg=706.022168202 std=95.4859653708 shift=706.022168202 inv_scale=0.0104727432573)
+[2021-02-25 00:20:54,624] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Commissioning (avg=9.85680184338e-15 std=1.0) nulls=0
+[2021-02-25 00:20:54,625] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:RescalingProcessor2 (Transport)
+[2021-02-25 00:20:54,636] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Transport (avg=997.281521653 std=131.3987102 shift=997.281521653 inv_scale=0.00761042477871)
+[2021-02-25 00:20:54,638] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Transport (avg=4.46947209715e-15 std=1.0) nulls=0
+[2021-02-25 00:20:54,638] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:FlushDFBuilder(num_flagonly)
+[2021-02-25 00:20:54,639] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:FastSparseDummifyProcessor (Country)
+[2021-02-25 00:20:54,645] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] Dummifier: Append a sparse block shape=(808, 102) nnz=573
+[2021-02-25 00:20:54,645] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:MultipleImputeMissingFromInput
+[2021-02-25 00:20:54,645] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] MIMIFI: Imputing with map {}
+[2021-02-25 00:20:54,645] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:FlushDFBuilder(cat_flagpresence)
+[2021-02-25 00:20:54,645] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:MultipleImputeMissingFromInput
+[2021-02-25 00:20:54,645] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] MIMIFI: Imputing with map {}
+[2021-02-25 00:20:54,645] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:FlushDFBuilder(interaction)
+[2021-02-25 00:20:54,645] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:RealignTarget
+[2021-02-25 00:20:54,645] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] Realign target series = (808,)
+[2021-02-25 00:20:54,694] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] After realign target: (808,)
+[2021-02-25 00:20:54,694] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:DropRowsWhereNoTarget
+[2021-02-25 00:20:54,695] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] Deleting 0 rows because no target
+[2021-02-25 00:20:54,695] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] MF before = (808, 123) target before = (808,)
+[2021-02-25 00:20:54,697] [26507/MainThread] [INFO] [dataiku.doctor.multiframe] MultiFrame, dropping rows: []
+[2021-02-25 00:20:54,728] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] After DRWNT input_df=(808, 24)
+[2021-02-25 00:20:54,728] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] MF after = (808, 123) target after = (808,)
+[2021-02-25 00:20:54,728] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:DumpPipelineState
+[2021-02-25 00:20:54,728] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] ********* Pipeline state (Before feature selection)
+[2021-02-25 00:20:54,728] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]    input_df= (808, 24) 
+[2021-02-25 00:20:54,729] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]    current_mf=(808, 123) 
+[2021-02-25 00:20:54,729] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]    PPR: 
+[2021-02-25 00:20:54,729] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]       target = <class 'pandas.core.series.Series'> ((808,))
+[2021-02-25 00:20:54,729] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:EmitCurrentMFAsResult
+[2021-02-25 00:20:54,729] [26507/MainThread] [INFO] [dataiku.doctor.multiframe] Set MF index len 808
+[2021-02-25 00:20:54,729] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:DumpPipelineState
+[2021-02-25 00:20:54,729] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] ********* Pipeline state (At end)
+[2021-02-25 00:20:54,729] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]    input_df= (808, 24) 
+[2021-02-25 00:20:54,729] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]    current_mf=(0, 0) 
+[2021-02-25 00:20:54,729] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]    PPR: 
+[2021-02-25 00:20:54,729] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]       UNPROCESSED = <class 'pandas.core.frame.DataFrame'> ((808, 24))
+[2021-02-25 00:20:54,729] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]       TRAIN = <class 'dataiku.doctor.multiframe.MultiFrame'> ((808, 123))
+[2021-02-25 00:20:54,729] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]       target = <class 'pandas.core.series.Series'> ((808,))
+[2021-02-25 00:20:54,746] [26507/MainThread] [INFO] [dataiku.doctor.utils.listener] END -  Preprocessing train set
+[2021-02-25 00:20:54,746] [26507/MainThread] [INFO] [dataiku.doctor.utils.listener] START -  Preprocessing test set
+[2021-02-25 00:20:54,747] [26507/MainThread] [INFO] [dataiku.doctor.multiframe] Set MF index len 192
+[2021-02-25 00:20:54,747] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:RemapValueToOutput
+[2021-02-25 00:20:54,747] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:MultipleImputeMissingFromInput
+[2021-02-25 00:20:54,747] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] MIMIFI: Imputing with map {u'Site area': 165.87376237623764, u'Installation': 501.0509567744046, u'Losses of production': 15.100247524752476, u'Distance from hub': 110.44820544554455, u'Number of units': 154.12871287128712, u'Installation year': 2026.5705445544554, u'Distance from shore': 106.12832920792076, u'Customizations': 1004.0659020887338, u'Water depth': 54.65992574257415, u'Hub activities': 503.66664868065556, u'Weather': 51.601485148514854, u'Commissioning': 706.0221682020796, u'Inflation': 5.210334158415843, u'Commissioning vessel': 1000.1791478110413, u'Project launch year NTP': 2022.976485148515, u'Air density': 2.320111386138608, u'Equity share': 65.32054455445545, u'Hub rental': 503.63717896087053, u'Transport': 997.2815216527242, u'Installation vessel': 704.7698302368915, u'Wind speed': 10.045631188118813}
+[2021-02-25 00:20:54,751] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:RescalingProcessor2 (Losses of production)
+[2021-02-25 00:20:54,751] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Losses of production (avg=15.3489583333 std=3.33756957036 shift=15.1002475248 inv_scale=0.314809443268)
+[2021-02-25 00:20:54,752] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Losses of production (avg=0.0782965111842 std=1.05069841831) nulls=0
+[2021-02-25 00:20:54,752] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:RescalingProcessor2 (Distance from hub)
+[2021-02-25 00:20:54,752] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Distance from hub (avg=110.314895833 std=41.7206611839 shift=110.448205446 inv_scale=0.0228932706325)
+[2021-02-25 00:20:54,753] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Distance from hub (avg=-0.00305189303026 std=0.95512238745) nulls=0
+[2021-02-25 00:20:54,753] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:RescalingProcessor2 (Hub activities)
+[2021-02-25 00:20:54,756] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Hub activities (avg=495.000065142 std=67.1176921294 shift=503.666648681 inv_scale=0.0143203975315)
+[2021-02-25 00:20:54,757] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Hub activities (avg=-0.12410892152 std=0.96115203269) nulls=0
+[2021-02-25 00:20:54,757] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:RescalingProcessor2 (Commissioning vessel)
+[2021-02-25 00:20:54,757] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Commissioning vessel (avg=983.225726911 std=133.328704 shift=1000.17914781 inv_scale=0.00723164828457)
+[2021-02-25 00:20:54,758] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Commissioning vessel (avg=-0.122601177167 std=0.964186293568) nulls=0
+[2021-02-25 00:20:54,759] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:RescalingProcessor2 (Distance from shore)
+[2021-02-25 00:20:54,759] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Distance from shore (avg=103.470052083 std=45.3029494492 shift=106.128329208 inv_scale=0.0229307592913)
+[2021-02-25 00:20:54,761] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Distance from shore (avg=-0.0609563128734 std=1.038831029) nulls=0
+[2021-02-25 00:20:54,761] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:RescalingProcessor2 (Water depth)
+[2021-02-25 00:20:54,761] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Water depth (avg=53.4330729167 std=17.8679409724 shift=54.6599257426 inv_scale=0.0583310281538)
+[2021-02-25 00:20:54,762] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Water depth (avg=-0.0715635867286 std=1.04225536791) nulls=0
+[2021-02-25 00:20:54,762] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:RescalingProcessor2 (Inflation)
+[2021-02-25 00:20:54,763] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Inflation (avg=5.20229166667 std=1.3377260374 shift=5.21033415842 inv_scale=0.778547472304)
+[2021-02-25 00:20:54,764] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Inflation (avg=-0.00626146162235 std=1.04148322505) nulls=0
+[2021-02-25 00:20:54,764] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:RescalingProcessor2 (Installation)
+[2021-02-25 00:20:54,764] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Installation (avg=492.849107077 std=63.3151933984 shift=501.050956774 inv_scale=0.0151016860244)
+[2021-02-25 00:20:54,765] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Installation (avg=-0.123861758956 std=0.956166171276) nulls=0
+[2021-02-25 00:20:54,766] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:RescalingProcessor2 (Wind speed)
+[2021-02-25 00:20:54,766] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Wind speed (avg=10.1380729167 std=1.20613828616 shift=10.0456311881 inv_scale=0.859832586714)
+[2021-02-25 00:20:54,767] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Wind speed (avg=0.0794844105776 std=1.03707700252) nulls=0
+[2021-02-25 00:20:54,767] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:RescalingProcessor2 (Number of units)
+[2021-02-25 00:20:54,767] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Number of units (avg=148.197916667 std=81.7836015504 shift=154.128712871 inv_scale=0.0118834351824)
+[2021-02-25 00:20:54,768] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Number of units (avg=-0.0704782322774 std=0.971870128004) nulls=0
+[2021-02-25 00:20:54,768] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:RescalingProcessor2 (Installation year)
+[2021-02-25 00:20:54,768] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Installation year (avg=2026.55729167 std=2.35286367978 shift=2026.57054455 inv_scale=0.442577435803)
+[2021-02-25 00:20:54,769] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Installation year (avg=-0.00586542909452 std=1.04132437419) nulls=0
+[2021-02-25 00:20:54,769] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:RescalingProcessor2 (Customizations)
+[2021-02-25 00:20:54,769] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Customizations (avg=986.891491008 std=130.917781358 shift=1004.06590209 inv_scale=0.00729564414258)
+[2021-02-25 00:20:54,770] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Customizations (avg=-0.125298391606 std=0.955129544727) nulls=0
+[2021-02-25 00:20:54,770] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:RescalingProcessor2 (Equity share)
+[2021-02-25 00:20:54,770] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Equity share (avg=65.1354166667 std=21.5161547936 shift=65.3205445545 inv_scale=0.0498599479106)
+[2021-02-25 00:20:54,773] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Equity share (avg=-0.00923046684195 std=1.07279435725) nulls=0
+[2021-02-25 00:20:54,774] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:RescalingProcessor2 (Hub rental)
+[2021-02-25 00:20:54,774] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Hub rental (avg=495.300710073 std=64.0072923664 shift=503.637178961 inv_scale=0.0150048275534)
+[2021-02-25 00:20:54,775] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Hub rental (avg=-0.125087278062 std=0.960418384116) nulls=0
+[2021-02-25 00:20:54,775] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:RescalingProcessor2 (Site area)
+[2021-02-25 00:20:54,775] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Site area (avg=158.755208333 std=73.9920575472 shift=165.873762376 inv_scale=0.0127439422011)
+[2021-02-25 00:20:54,777] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Site area (avg=-0.0907184412785 std=0.942950504724) nulls=0
+[2021-02-25 00:20:54,778] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:RescalingProcessor2 (Weather)
+[2021-02-25 00:20:54,778] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Weather (avg=49.0677083333 std=29.0776285241 shift=51.6014851485 inv_scale=0.0347225438912)
+[2021-02-25 00:20:54,779] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Weather (avg=-0.0879791766756 std=1.00964923268) nulls=0
+[2021-02-25 00:20:54,779] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:RescalingProcessor2 (Installation vessel)
+[2021-02-25 00:20:54,779] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Installation vessel (avg=693.719384864 std=88.143804629 shift=704.769830237 inv_scale=0.0107954152097)
+[2021-02-25 00:20:54,780] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Installation vessel (avg=-0.119294146051 std=0.951548969136) nulls=0
+[2021-02-25 00:20:54,780] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:RescalingProcessor2 (Project launch year NTP)
+[2021-02-25 00:20:54,781] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Project launch year NTP (avg=2022.94791667 std=1.36039562822 shift=2022.97648515 inv_scale=0.708302949796)
+[2021-02-25 00:20:54,782] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Project launch year NTP (avg=-0.0202351399643 std=0.963572236355) nulls=0
+[2021-02-25 00:20:54,782] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:RescalingProcessor2 (Air density)
+[2021-02-25 00:20:54,782] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Air density (avg=2.31713541667 std=0.0565465327154 shift=2.32011138614 inv_scale=17.4340041841)
+[2021-02-25 00:20:54,783] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Air density (avg=-0.0518830642255 std=0.985832487954) nulls=0
+[2021-02-25 00:20:54,783] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:RescalingProcessor2 (Commissioning)
+[2021-02-25 00:20:54,783] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Commissioning (avg=694.228175666 std=91.5968758299 shift=706.022168202 inv_scale=0.0104727432573)
+[2021-02-25 00:20:54,784] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Commissioning (avg=-0.123515455805 std=0.959270563734) nulls=0
+[2021-02-25 00:20:54,784] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:RescalingProcessor2 (Transport)
+[2021-02-25 00:20:54,785] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescale Transport (avg=981.530635689 std=125.550908854 shift=997.281521653 inv_scale=0.00761042477871)
+[2021-02-25 00:20:54,785] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]   Rescaled Transport (avg=-0.119870932827 std=0.955495747731) nulls=0
+[2021-02-25 00:20:54,786] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:FlushDFBuilder(num_flagonly)
+[2021-02-25 00:20:54,786] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:FastSparseDummifyProcessor (Country)
+[2021-02-25 00:20:54,796] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] Dummifier: Append a sparse block shape=(192, 102) nnz=102
+[2021-02-25 00:20:54,796] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:MultipleImputeMissingFromInput
+[2021-02-25 00:20:54,796] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] MIMIFI: Imputing with map {}
+[2021-02-25 00:20:54,797] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:FlushDFBuilder(cat_flagpresence)
+[2021-02-25 00:20:54,797] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:MultipleImputeMissingFromInput
+[2021-02-25 00:20:54,797] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] MIMIFI: Imputing with map {}
+[2021-02-25 00:20:54,797] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:FlushDFBuilder(interaction)
+[2021-02-25 00:20:54,797] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:RealignTarget
+[2021-02-25 00:20:54,797] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] Realign target series = (192,)
+[2021-02-25 00:20:54,797] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] After realign target: (192,)
+[2021-02-25 00:20:54,797] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:DropRowsWhereNoTarget
+[2021-02-25 00:20:54,798] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] Deleting 0 rows because no target
+[2021-02-25 00:20:54,798] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] MF before = (192, 123) target before = (192,)
+[2021-02-25 00:20:54,799] [26507/MainThread] [INFO] [dataiku.doctor.multiframe] MultiFrame, dropping rows: []
+[2021-02-25 00:20:54,802] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] After DRWNT input_df=(192, 24)
+[2021-02-25 00:20:54,802] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] MF after = (192, 123) target after = (192,)
+[2021-02-25 00:20:54,802] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:DumpPipelineState
+[2021-02-25 00:20:54,802] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] ********* Pipeline state (Before feature selection)
+[2021-02-25 00:20:54,802] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]    input_df= (192, 24) 
+[2021-02-25 00:20:54,802] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]    current_mf=(192, 123) 
+[2021-02-25 00:20:54,802] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]    PPR: 
+[2021-02-25 00:20:54,802] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]       target = <class 'pandas.core.series.Series'> ((192,))
+[2021-02-25 00:20:54,802] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:EmitCurrentMFAsResult
+[2021-02-25 00:20:54,803] [26507/MainThread] [INFO] [dataiku.doctor.multiframe] Set MF index len 192
+[2021-02-25 00:20:54,803] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] PROCESS WITH Step:DumpPipelineState
+[2021-02-25 00:20:54,803] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] ********* Pipeline state (At end)
+[2021-02-25 00:20:54,803] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]    input_df= (192, 24) 
+[2021-02-25 00:20:54,803] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]    current_mf=(0, 0) 
+[2021-02-25 00:20:54,803] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]    PPR: 
+[2021-02-25 00:20:54,803] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]       UNPROCESSED = <class 'pandas.core.frame.DataFrame'> ((192, 24))
+[2021-02-25 00:20:54,803] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]       TRAIN = <class 'dataiku.doctor.multiframe.MultiFrame'> ((192, 123))
+[2021-02-25 00:20:54,803] [26507/MainThread] [DEBUG] [dku.ml.preprocessing]       target = <class 'pandas.core.series.Series'> ((192,))
+[2021-02-25 00:20:54,803] [26507/MainThread] [INFO] [dataiku.doctor.utils.listener] END -  Preprocessing test set
+[2021-02-25 00:20:54,803] [26507/MainThread] [INFO] [dataiku.doctor.utils.listener] START -  Hyperparameter searching
+[2021-02-25 00:20:54,806] [26507/MainThread] [DEBUG] [dku.ml.preprocessing] Deleting 0 rows
+[2021-02-25 00:20:54,807] [26507/MainThread] [INFO] [dataiku.doctor.multiframe] MultiFrame, dropping rows: []
+[2021-02-25 00:20:54,808] [26507/MainThread] [INFO] [dataiku.doctor.prediction.common] prepare multiframe shape=(808,123) tn=99384 nnz=17541 fill_ratio=0.18
+[2021-02-25 00:20:54,808] [26507/MainThread] [INFO] [dataiku.doctor.prediction.common] too small, using array
+[2021-02-25 00:20:54,809] [26507/MainThread] [INFO] [dataiku.doctor.prediction.common] Create CLF from params: {u'computeLearningCurves': False, u'ridge_grid': {u'alpha': {u'values': [0.1, 1.0, 3.0], u'gridMode': u'EXPLICIT', u'randomMode': u'RANGE', u'limit': {u'min': 1e-23}, u'range': {u'scaling': u'LOGARITHMIC', u'max': 3.0, u'nbValues': 3, u'min': 0.1}}, u'alphaMode': u'MANUAL', u'enabled': True}, u'algorithm': u'RIDGE_REGRESSION', u'grid_search_params': {u'nIter': 0, u'nJobs': 4, u'nIterRandom': 3, u'bayesianOptimizer': u'SCIKIT_OPTIMIZE', u'strategy': u'GRID', u'randomized': True, u'shuffleIterations': 1, u'seed': 0, u'mode': u'KFOLD', u'timeout': 0, u'splitRatio': 0.8, u'nFolds': 3, u'stratified': True}, u'autoOptimizeThreshold': True, u'gridLength': 3, u'metrics': {u'customEvaluationMetricNeedsProba': False, u'evaluationMetric': u'R2', u'liftPoint': 0.4, u'costMatrixWeights': {u'fnGain': 0.0, u'tpGain': 1.0, u'tnGain': 0.0, u'fpGain': -0.3}, u'customEvaluationMetricGIB': True}, u'forcedClassifierThreshold': 0.0, u'skipExpensiveReports': False, u'max_ensemble_nodes_serialized': 0, u'pluginAlgoCustomGridSearch': False} for algorithm RIDGE_REGRESSION
+[2021-02-25 00:20:54,809] [26507/MainThread] [INFO] [dataiku.doctor.prediction.common] Using K-Fold CV with k=3
+[2021-02-25 00:20:54,831] [26507/MainThread] [INFO] [dataiku.doctor.crossval.search_runner] Fitting 3 folds for each of 3 candidates, totalling 9 fits
+[2021-02-25 00:20:54,832] [26507/MainThread] [INFO] [dataiku.doctor.crossval.strategies.grid_search_strategy] Running GridSearchStrategy for hyperparameters space: <dataiku.doctor.prediction.common.HyperparametersSpace object at 0x7ff3eb1b2cd0>
+[2021-02-25 00:20:54,832] [26507/MainThread] [INFO] [dataiku.doctor.crossval.search_evaluator] Schedule evaluation on split 0: {'alpha': 0.1}
+[2021-02-25 00:20:54,832] [26507/SS0-140685478983424] [INFO] [dataiku.doctor.crossval.distributed.search_slave_pool] Starting search slave 0
+[2021-02-25 00:20:54,833] [26507/MainThread] [INFO] [dataiku.doctor.crossval.search_evaluator] Schedule evaluation on split 1: {'alpha': 0.1}
+[2021-02-25 00:20:54,834] [26507/SS0-140685478983424] [INFO] [dataiku.doctor.crossval.distributed.local_search_slave] Fit s=0: alpha=0.1 .......................................................
+[2021-02-25 00:20:54,834] [26507/SS1-140685470590720] [INFO] [dataiku.doctor.crossval.distributed.search_slave_pool] Starting search slave 1
+[2021-02-25 00:20:54,837] [26507/SS1-140685470590720] [INFO] [dataiku.doctor.crossval.distributed.local_search_slave] Fit s=1: alpha=0.1 .......................................................
+[2021-02-25 00:20:54,844] [26507/MainThread] [INFO] [dataiku.doctor.crossval.search_evaluator] Schedule evaluation on split 2: {'alpha': 0.1}
+[2021-02-25 00:20:54,844] [26507/SS2-140685462198016] [INFO] [dataiku.doctor.crossval.distributed.search_slave_pool] Starting search slave 2
+[2021-02-25 00:20:54,845] [26507/SS2-140685462198016] [INFO] [dataiku.doctor.crossval.distributed.local_search_slave] Fit s=2: alpha=0.1 .......................................................
+[2021-02-25 00:20:54,848] [26507/MainThread] [INFO] [dataiku.doctor.crossval.search_evaluator] Schedule evaluation on split 0: {'alpha': 1.0}
+[2021-02-25 00:20:54,848] [26507/SS3-140685445412608] [INFO] [dataiku.doctor.crossval.distributed.search_slave_pool] Starting search slave 3
+[2021-02-25 00:20:54,849] [26507/SS3-140685445412608] [INFO] [dataiku.doctor.crossval.distributed.local_search_slave] Fit s=0: alpha=1.0 .......................................................
+[2021-02-25 00:20:54,850] [26507/MainThread] [INFO] [dataiku.doctor.crossval.search_evaluator] Schedule evaluation on split 1: {'alpha': 1.0}
+[2021-02-25 00:20:55,095] [26507/SS2-140685462198016] [INFO] [dataiku.doctor.crossval.distributed.local_search_slave] Done s=2: alpha=0.1 (ft=0.0s st=0.0s sc=0.997583385778, sg=1)
+[2021-02-25 00:20:55,095] [26507/MainThread] [INFO] [dataiku.doctor.crossval.search_evaluator] Schedule evaluation on split 2: {'alpha': 1.0}
+[2021-02-25 00:20:55,096] [26507/SS1-140685470590720] [INFO] [dataiku.doctor.crossval.distributed.local_search_slave] Done s=1: alpha=0.1 (ft=0.0s st=0.0s sc=0.99760794701, sg=1)
+[2021-02-25 00:20:55,096] [26507/SS3-140685445412608] [INFO] [dataiku.doctor.crossval.distributed.local_search_slave] Done s=0: alpha=1.0 (ft=0.0s st=0.0s sc=0.980454801099, sg=1)
+[2021-02-25 00:20:55,097] [26507/SS1-140685470590720] [INFO] [dataiku.doctor.crossval.distributed.local_search_slave] Fit s=2: alpha=1.0 .......................................................
+[2021-02-25 00:20:55,099] [26507/MainThread] [INFO] [dataiku.doctor.crossval.search_evaluator] Schedule evaluation on split 0: {'alpha': 3.0}
+[2021-02-25 00:20:55,099] [26507/MainThread] [INFO] [dataiku.doctor.crossval.search_evaluator] Schedule evaluation on split 1: {'alpha': 3.0}
+[2021-02-25 00:20:55,100] [26507/SS2-140685462198016] [INFO] [dataiku.doctor.crossval.distributed.local_search_slave] Fit s=1: alpha=1.0 .......................................................
+[2021-02-25 00:20:55,102] [26507/SS3-140685445412608] [INFO] [dataiku.doctor.crossval.distributed.local_search_slave] Fit s=0: alpha=3.0 .......................................................
+[2021-02-25 00:20:55,164] [26507/SS0-140685478983424] [INFO] [dataiku.doctor.crossval.distributed.local_search_slave] Done s=0: alpha=0.1 (ft=0.0s st=0.0s sc=0.997417143452, sg=1)
+[2021-02-25 00:20:55,167] [26507/MainThread] [INFO] [dataiku.doctor.crossval.search_evaluator] Schedule evaluation on split 2: {'alpha': 3.0}
+[2021-02-25 00:20:55,169] [26507/SS0-140685478983424] [INFO] [dataiku.doctor.crossval.distributed.local_search_slave] Fit s=1: alpha=3.0 .......................................................
+[2021-02-25 00:20:55,211] [26507/SS1-140685470590720] [INFO] [dataiku.doctor.crossval.distributed.local_search_slave] Done s=2: alpha=1.0 (ft=0.0s st=0.0s sc=0.982320712356, sg=1)
+[2021-02-25 00:20:55,212] [26507/SS1-140685470590720] [INFO] [dataiku.doctor.crossval.distributed.local_search_slave] Fit s=2: alpha=3.0 .......................................................
+[2021-02-25 00:20:55,276] [26507/SS3-140685445412608] [INFO] [dataiku.doctor.crossval.distributed.local_search_slave] Done s=0: alpha=3.0 (ft=0.0s st=0.0s sc=0.911601488456, sg=1)
+[2021-02-25 00:20:55,277] [26507/SS2-140685462198016] [INFO] [dataiku.doctor.crossval.distributed.local_search_slave] Done s=1: alpha=1.0 (ft=0.0s st=0.0s sc=0.982528966498, sg=1)
+[2021-02-25 00:20:55,282] [26507/SS0-140685478983424] [INFO] [dataiku.doctor.crossval.distributed.local_search_slave] Done s=1: alpha=3.0 (ft=0.0s st=0.0s sc=0.917018430008, sg=1)
+[2021-02-25 00:20:55,293] [26507/SS1-140685470590720] [INFO] [dataiku.doctor.crossval.distributed.local_search_slave] Done s=2: alpha=3.0 (ft=0.0s st=0.0s sc=0.915939016451, sg=1)
+[2021-02-25 00:20:55,833] [26507/Thread-1] [INFO] [dataiku.doctor.crossval.search_runner] Completed search for hyperparameters
+[2021-02-25 00:20:55,833] [26507/Thread-1] [INFO] [dataiku.doctor.crossval.distributed.search_slave_pool] Slave pool has been soft interrupted
+[2021-02-25 00:20:55,834] [26507/MainThread] [INFO] [dataiku.doctor.crossval.distributed.search_slave_pool] Slave pool has been hard interrupted (shutdown)
+[2021-02-25 00:20:55,834] [26507/MainThread] [INFO] [dataiku.doctor.crossval.distributed.search_slave_pool] Stopping search slave 0
+[2021-02-25 00:20:55,834] [26507/SS3-140685445412608] [INFO] [dataiku.doctor.crossval.distributed.search_slave_pool] Stopping search slave 3
+[2021-02-25 00:20:55,834] [26507/SS1-140685470590720] [INFO] [dataiku.doctor.crossval.distributed.search_slave_pool] Stopping search slave 1
+[2021-02-25 00:20:55,834] [26507/SS2-140685462198016] [INFO] [dataiku.doctor.crossval.distributed.search_slave_pool] Stopping search slave 2
+[2021-02-25 00:20:55,834] [26507/MainThread] [INFO] [dataiku.doctor.crossval.search_runner] Hyperparameter search done, best_parameters being : {'alpha': 0.1}
+[2021-02-25 00:20:55,834] [26507/MainThread] [INFO] [dataiku.doctor.utils.listener] END -  Hyperparameter searching
+[2021-02-25 00:20:55,835] [26507/MainThread] [INFO] [dataiku.doctor.utils.listener] START -  Fitting model
+[2021-02-25 00:20:55,835] [26507/MainThread] [INFO] [dataiku.doctor.prediction.common] Fitting model:
+[2021-02-25 00:20:55,836] [26507/MainThread] [INFO] [dataiku.doctor.prediction.common]   Model is: Ridge(alpha=0.1, copy_X=True, fit_intercept=True, max_iter=None,
+   normalize=True, random_state=None, solver='auto', tol=0.001)
+[2021-02-25 00:20:55,836] [26507/MainThread] [INFO] [dataiku.doctor.prediction.common]   train_X class: <type 'numpy.ndarray'>
+[2021-02-25 00:20:55,836] [26507/MainThread] [INFO] [dataiku.doctor.prediction.common]   train_X shape: (808, 123)
+[2021-02-25 00:20:55,836] [26507/MainThread] [INFO] [dataiku.doctor.prediction.common]   train_y shape: (808,)
+[2021-02-25 00:20:55,836] [26507/MainThread] [INFO] [dataiku.doctor.prediction.common]   calibration enabled: a sub-sample of the train data has been saved for calibration
+[2021-02-25 00:20:55,861] [26507/MainThread] [INFO] [dataiku.doctor.prediction.regression_fit] Output params are {'resolved': {'ridge': {'alpha': 0.1}, 'skipExpensiveReports': False, 'algorithm': u'RIDGE_REGRESSION'}, 'other': {}}
+[2021-02-25 00:20:55,861] [26507/MainThread] [INFO] [dataiku.doctor.utils.listener] END -  Fitting model
+[2021-02-25 00:20:55,861] [26507/MainThread] [INFO] [dataiku.doctor.utils.listener] START -  Saving model
+[2021-02-25 00:20:55,862] [26507/MainThread] [INFO] [dataiku.doctor.utils.listener] END -  Saving model
+[2021-02-25 00:20:55,862] [26507/MainThread] [INFO] [dataiku.doctor.utils.listener] START -  Scoring model
+[2021-02-25 00:20:55,863] [26507/MainThread] [INFO] [dataiku.doctor.prediction.regression_scoring] Intrinsic scoring
+[2021-02-25 00:20:55,863] [26507/MainThread] [INFO] [dataiku.doctor.prediction.regression_scoring] Extracting rescalers
+[2021-02-25 00:20:55,863] [26507/MainThread] [INFO] [dataiku.doctor.prediction.regression_scoring] Computing regression coeffs
+[2021-02-25 00:20:55,882] [26507/MainThread] [INFO] [dataiku.doctor.prediction.scoring_base] Coefs: [ 2.01624197e+04 -2.20450871e+00  3.02381288e+02  3.22809114e+02
+  3.11863787e+02  1.60350072e+00 -4.91309288e+00 -3.13738810e+00
+  3.20339675e+02  3.20116175e+02  5.93344700e-01  3.11885231e+02
+  3.23199671e+02  2.38771385e+00 -2.13582332e+00 -3.31089703e+00
+  2.68642579e+00 -2.77090161e+00  3.20601965e+02  1.32505983e+00
+ -1.49513102e+00 -2.03278915e+00  6.70936385e+01 -1.69170164e+01
+ -5.59834934e+01  2.70223028e+01 -3.28524710e+01 -3.02742142e+01
+  2.26240462e+01  6.05845378e+00 -3.01835197e+01  3.93827751e+01
+  1.31268612e+01  1.32990655e+02  1.46101347e+01 -2.20172950e+01
+  8.59836218e+00 -4.47276995e+00  1.79818172e+01  3.94728726e+01
+ -1.83856036e+01 -5.92261788e+00  2.02548693e+01 -3.69193823e+01
+  1.42553217e+01 -2.28557966e+01  5.51033188e+01 -8.29143016e-01
+  6.32500800e+01 -5.42907313e+01  9.98209716e-01  4.99484684e+01
+  7.32296817e+01 -6.86751191e+01  2.72026475e+01  8.26348631e+00
+  2.27009559e+01 -3.37182705e+01  3.09174710e+01  2.90844203e+01
+ -4.98735685e+00  1.15388887e+01  1.60269568e+01 -1.77499724e+01
+  1.79986558e+01 -9.03126245e+00  1.71109602e+01  6.93121916e+01
+  1.39237796e+01  1.85093646e+01 -1.04069362e+02 -2.26725518e+00
+  1.69528659e+01  2.08123060e+01 -1.47298899e+01 -5.42818619e+01
+ -3.70760857e+00  3.06483486e+01  6.15137274e+01 -6.19298486e+01
+  2.39919214e+00 -2.47860627e+01  2.30916832e+01 -4.69113967e+00
+  1.11955712e+01  4.13715037e+01 -9.38802415e+00  1.18162500e+01
+ -8.35561479e+01 -1.49961738e+01  1.12740259e+01 -6.82707377e+00
+  1.42605958e+01  1.38232919e+00  1.89265421e+01  2.65314516e+01
+ -8.69835127e+01  4.44302435e+00 -8.19191215e+01 -1.00157938e+02
+  2.39788904e+01  1.47169798e+01  2.22633693e+01  2.80473743e+01
+ -1.88468802e+01  2.01349242e+01 -3.27961621e+01  4.59323239e+01
+  3.29798994e+01 -8.42912637e+01  5.78654265e+00  3.15396362e+01
+ -2.47580692e+01 -3.38073315e+01 -2.73911416e+01  5.79851309e+01
+  1.68721248e+02 -8.79090332e+01 -9.01282681e+00 -2.38647321e+00
+ -2.18024168e+01  8.94674762e+00  5.20333260e+01  0.00000000e+00]
+[2021-02-25 00:20:55,882] [26507/MainThread] [INFO] [dataiku.doctor.prediction.scoring_base] Sample variance: 12967.106919824544
+[2021-02-25 00:20:56,115] [26507/MainThread] [INFO] [dataiku.doctor.prediction.scoring_base] Singular variance matrix
+[2021-02-25 00:20:56,116] [26507/MainThread] [INFO] [dataiku.doctor.prediction.common] prepare multiframe shape=(192,123) tn=23616 nnz=4134 fill_ratio=0.18
+[2021-02-25 00:20:56,116] [26507/MainThread] [INFO] [dataiku.doctor.prediction.common] too small, using array
+[2021-02-25 00:20:56,117] [26507/MainThread] [INFO] [dataiku.doctor.prediction.regression_scoring] Creating predictions on test set
+[2021-02-25 00:20:56,117] [26507/MainThread] [INFO] [dataiku.doctor.prediction.regression_scoring] Computing regression performance on [12780.0466934  13113.46838373 13471.86279392 13824.70926456
+ 14551.40140216 14855.77014104 15051.95792106 15265.37258264
+ 15583.7132802  15704.20335955 15995.83500142 16118.52884803
+ 16172.21190256 16365.24612546 16311.14045661 16403.36992675
+ 16442.46259404 16520.04339107 16494.4187469  16664.0412787
+ 16645.04069933 16888.73902047 17145.2542151  17214.65704781
+ 17353.40818997 17338.0586218  17479.50685221 17567.22737419
+ 17612.61716143 17627.16339969 17654.66207604 17661.36438099
+ 17751.19000259 17761.84427305 17756.87738894 17783.51531192
+ 17907.14120234 17865.39413208 17991.36639868 18220.69531027
+ 18110.67301007 18272.43294672 18136.30846952 18147.27562037
+ 18174.98813291 18171.72579379 18344.56161771 18394.54677117
+ 18372.13608258 18388.52533182 18486.63912172 18476.23680822
+ 18608.65480503 18608.05632842 18632.45991736 18591.5610228
+ 18700.91969645 18731.89154415 18731.81845776 18857.3352097
+ 18876.37240582 18930.99905886 18834.49563622 18903.33122718
+ 18906.19170062 18896.97614418 18951.28378519 19005.74448902
+ 18972.2929715  19080.28792777 19150.42011964 19182.8846552
+ 19193.17013514 19277.36999206 19240.94844158 19262.50309073
+ 19299.75450295 19329.97130276 19399.63620666 19407.49925565
+ 19438.74013952 19481.61653267 19519.66501952 19555.79107126
+ 19563.92879028 19648.68716261 19613.53815568 19529.94698647
+ 19652.2788237  19771.86136407 19812.97830615 19850.9395374
+ 19788.78941548 19862.48289703 19919.83644417 19935.00019572
+ 19928.04620374 19974.77800858 19945.68211471 19996.64998422
+ 20056.75924395 20047.9625598  20033.82662674 20076.75585102
+ 20120.25103819 20114.28782885 20191.01957908 20152.07586225
+ 20165.16502732 20190.9873041  20141.85542327 20212.47956228
+ 20235.73608827 20319.82633114 20335.62715591 20346.23670728
+ 20403.0188194  20479.34203831 20463.11707741 20483.69819125
+ 20542.91264666 20622.00687869 20606.38716544 20620.21396586
+ 20613.24280544 20682.74646957 20733.45490187 20721.39362021
+ 20743.2618697  20829.90807598 20945.72936595 20955.80475055
+ 20962.69561448 20996.37717966 21053.43975592 21152.42826933
+ 21173.91287647 21270.7580189  21310.14011613 21393.08690982
+ 21469.74392198 21333.57494747 21448.74048417 21597.12994091
+ 21679.20394081 21631.63863417 21660.52787021 21810.90956231
+ 21802.35087203 21869.36745876 21820.54103985 21958.54113658
+ 21937.72343489 21951.29388472 22018.93243565 22008.19408515
+ 22009.89345036 22041.48397003 22038.08946657 22114.36068622
+ 22039.46322358 22209.20883143 22254.237801   22272.19260318
+ 22401.04935132 22474.34546497 22574.85069769 22546.8333779
+ 22748.55247078 22751.55667384 22709.43749288 22714.73115494
+ 22858.75929984 22809.39843487 22905.2711169  23057.38546534
+ 23162.38842281 23193.4247745  23208.34214571 23428.99575534
+ 23703.01378786 23718.31209866 24023.61239189 24104.01303169
+ 24168.87453782 24241.70992509 24318.63978408 24299.88767964
+ 24999.50753704 25251.67951661 25281.99730128 25656.16320392]
+[2021-02-25 00:20:56,219] [26507/MainThread] [INFO] [dataiku.doctor.utils.listener] END -  Scoring model
+[2021-02-25 00:20:56,226] [26507/MainThread] [INFO] [root] Reading with dtypes: None
+[2021-02-25 00:20:56,227] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for ID: None (schema_type=bigint feature_type=NUMERIC feature_role=REJECT)
+[2021-02-25 00:20:56,227] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Turbine EXW: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=TARGET)
+[2021-02-25 00:20:56,227] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Transport: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:56,227] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Customizations: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:56,227] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Hub activities: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:56,227] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Hub rental: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:56,227] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Installation: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:56,227] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Commissioning: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:56,227] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Commissioning vessel: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:56,227] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Installation vessel: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:56,227] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Wind speed: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:56,227] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Air density: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:56,227] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Water depth: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:56,227] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Country: str (schema_type=string feature_type=CATEGORY feature_role=INPUT)
+[2021-02-25 00:20:56,227] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Inflation: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:56,228] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Project launch year NTP: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:56,228] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Installation year: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:56,228] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Distance from shore: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:56,228] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Distance from hub: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:56,228] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Number of units: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:56,228] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Site area: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:56,228] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Weather: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:56,228] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Losses of production: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:56,228] [26507/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Equity share: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2021-02-25 00:20:56,228] [26507/MainThread] [INFO] [root] Reading with FIXED dtypes: {u'Losses of production': <type 'numpy.float64'>, u'Distance from hub': <type 'numpy.float64'>, u'Hub activities': <type 'numpy.float64'>, u'Turbine EXW': <type 'numpy.float64'>, u'Commissioning vessel': <type 'numpy.float64'>, u'Distance from shore': <type 'numpy.float64'>, u'Water depth': <type 'numpy.float64'>, u'Inflation': <type 'numpy.float64'>, u'Installation': <type 'numpy.float64'>, u'Wind speed': <type 'numpy.float64'>, u'Number of units': <type 'numpy.float64'>, u'Country': 'str', u'Installation year': <type 'numpy.float64'>, u'Customizations': <type 'numpy.float64'>, u'Equity share': <type 'numpy.float64'>, u'Hub rental': <type 'numpy.float64'>, u'Site area': <type 'numpy.float64'>, u'Weather': <type 'numpy.float64'>, u'Installation vessel': <type 'numpy.float64'>, u'Project launch year NTP': <type 'numpy.float64'>, u'Air density': <type 'numpy.float64'>, u'Commissioning': <type 'numpy.float64'>, u'Transport': <type 'numpy.float64'>}
+[2021-02-25 00:20:56,233] [26507/MainThread] [INFO] [root] Loaded table
+[2021-02-25 00:20:56,233] [26507/MainThread] [INFO] [dataiku.doctor.prediction.background_rows_handler] Building background rows
+[2021-02-25 00:20:56,234] [26507/MainThread] [INFO] [dataiku.doctor.prediction.background_rows_handler] Background estimated bias <= 61.0410557805
+[2021-02-25 00:20:56,242] [26507/MainThread] [INFO] [dataiku.doctor.prediction.background_rows_handler] Built background rows with shape=(192, 24)
+[2021-02-25 00:20:56,242] [26507/MainThread] [INFO] [dataiku.doctor.prediction.background_rows_handler] Saving background rows with shape=(192, 24)
+[2021-02-25 00:20:56,248] [26507/MainThread] [INFO] [dataiku.doctor.utils]  Coercion done
+[2021-02-25 00:20:56,249] [26507/MainThread] [INFO] [dataiku.doctor.prediction.histogram_handler] Computing histograms
+[2021-02-25 00:20:56,292] [26507/MainThread] [INFO] [dataiku.doctor.prediction.histogram_handler] Saving histograms
+[2021-02-25 00:20:56,294] [26507/MainThread] [INFO] [dataiku.doctor.prediction.column_importance_handler] Computing column importance
+/home/bogdan/Desktop/Dataiku/dataiku-dss-8.0.4/python/dataiku/doctor/prediction/column_importance_handler.py:125: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  clf.fit(preprocessed_array[idx], target[idx])
+[2021-02-25 00:20:56,693] [26507/MainThread] [INFO] [dataiku.doctor.prediction.column_importance_handler] Saving column importance
+[2021/02/25-00:20:56.695] [MRT-437] [INFO] [dku.block.link.interaction]  - Check result for nullity exceptionIfNull=true result=not null
+[2021/02/25-00:20:56.695] [MRT-437] [INFO] [dku.analysis.prediction]  - Training returned ok
+[2021/02/25-00:20:56.727] [MRT-437] [INFO] [dku.ml.versioning]  - Dumping version info {"trainedWithDSSVersion":"8.0.4","trainedWithDSSConfVersion":"8020","trainedWithDSSBackend":"PY_MEMORY","backendCompatibilityVersion":18} in /home/bogdan/Desktop/Dataiku/DATA_DIR/analysis-data/TURBINE_EXWPREDICTIONFORINTERVIEW/stAdyBAq/xDZFvfZG/sessions/s1/pp2/m1
+[2021/02/25-00:20:56.803] [KNL-python-single-command-kernel-monitor-444] [INFO] [dku.kernels]  - Process done with code 143
+[2021/02/25-00:20:56.809] [KNL-python-single-command-kernel-out-450] [DEBUG] [process]  - StreamToLine: EOF (stream closed)
+[2021/02/25-00:20:56.809] [KNL-python-single-command-kernel-err-451] [DEBUG] [process]  - StreamToLine: EOF (stream closed)
+[2021/02/25-00:20:56.815] [KNL-python-single-command-kernel-monitor-444] [WARN] [dku.resource]  - stat file for pid 26507 does not exist. Process died?
+[2021/02/25-00:20:56.815] [KNL-python-single-command-kernel-monitor-444] [INFO] [dku.resourceusage]  - Reporting completion of CRU:{"context":{"type":"ANALYSIS_ML_TRAIN","authIdentifier":"admin","projectKey":"TURBINE_EXWPREDICTIONFORINTERVIEW","analysisId":"stAdyBAq","mlTaskId":"xDZFvfZG","sessionId":"s1"},"type":"LOCAL_PROCESS","id":"K2T3gz1mw83wqczv","startTime":1614208837457,"localProcess":{"pid":26507,"commandName":"/home/bogdan/Desktop/Dataiku/DATA_DIR/bin/python","cpuUserTimeMS":1000,"cpuSystemTimeMS":480,"cpuChildrenUserTimeMS":0,"cpuChildrenSystemTimeMS":0,"cpuTotalMS":1480,"cpuCurrent":0.10597880423915217,"vmSizeMB":772,"vmRSSMB":113,"vmHWMMB":113,"vmRSSAnonMB":80,"vmDataMB":309,"vmSizePeakMB":772,"vmRSSPeakMB":113,"vmRSSTotalMBS":1215,"majorFaults":274,"childrenMajorFaults":8}}
+[2021/02/25-00:20:59.317] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.analysis.ml.python] T-xDZFvfZG - Processing thread joined ...
+[2021/02/25-00:20:59.318] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.analysis.ml.python] T-xDZFvfZG - Joining processing thread ...
+[2021/02/25-00:20:59.319] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.analysis.ml.python] T-xDZFvfZG - Processing thread joined ...
+[2021/02/25-00:20:59.319] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.analysis.prediction] T-xDZFvfZG - Train done
+[2021/02/25-00:20:59.320] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.analysis.prediction] T-xDZFvfZG - Train done
+[2021/02/25-00:20:59.329] [FT-TrainWorkThread-6s1lxdBz-435] [INFO] [dku.analysis.prediction] T-xDZFvfZG - Publishing mltask-train-done reflected event
